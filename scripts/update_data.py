@@ -9,7 +9,7 @@ import json
 import time
 import re
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from Bio import Entrez
 
 # 配置
@@ -67,20 +67,23 @@ def build_query():
     org_query = " OR ".join([f'"{org}"[Organism]' for org in SEARCH_CONFIG["organisms"]])
     type_query = " OR ".join([f'"{t}"[DataSet Type]' for t in SEARCH_CONFIG["data_types"]])
 
-    # 只搜索最近30天的数据
-    date_query = "0030[MDAT]"
-
-    return f"({keyword_query}) AND ({org_query}) AND ({type_query}) AND {date_query}"
+    return f"({keyword_query}) AND ({org_query}) AND ({type_query})"
 
 
 def search_geo(max_retries=3):
     """搜索 GEO 数据库（带重试机制）"""
     query = build_query()
+    end_date = datetime.now().strftime("%Y/%m/%d")
+    start_date = (datetime.now() - timedelta(days=30)).strftime("%Y/%m/%d")
     print(f"搜索查询: {query[:100]}...")
+    print(f"日期范围: {start_date} - {end_date}")
 
     for attempt in range(max_retries):
         try:
-            handle = Entrez.esearch(db="gds", term=query, retmax=500, usehistory="y")
+            handle = Entrez.esearch(
+                db="gds", term=query, retmax=500, usehistory="y",
+                mindate=start_date, maxdate=end_date, datetype="pdat"
+            )
             results = Entrez.read(handle)
             handle.close()
             return results.get("IdList", [])
