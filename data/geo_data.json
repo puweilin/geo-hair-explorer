@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE324041",
+    "Title": "HTRA1 Mutation and Expression Regulation in Cerebral Small Vessel Disease",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 8,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "The First Hospital of Shanxi Medical University",
+    "Contributors": "",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Cerebral small vessel disease (CSVD) refers to a series of clinical, radiological, and pathological syndromes caused by various etiologies affecting small arteries, arterioles, venules, capillaries, and small veins in the brain. It can lead to cognitive impairment, stroke, gait abnormalities, and other neurological symptoms and signs. Globally, approximately 25% to 30% of strokes are caused by CSVD. The underlying mechanisms of CSVD are multifaceted, involving endothelial dysfunction, blood-brain barrier (BBB) inflammation, neuronal apoptosis, chronic cerebral hypoperfusion, and their complex interactions. Current treatments often fail to achieve satisfactory outcomes. Therefore, understanding the pathogenic mechanisms of CSVD is crucial for developing effective therapeutic strategies to mitigate its detrimental effects. The high-temperature requirement protease A-1 (HTRA1) mutations can cause hereditary CSVD. CSVD associated with HTRA1 mutations is referred to as HTRA1-associated CSVD. Homozygous HTRA1 mutations cause Cerebral Autosomal Recessive Arteriopathy with Subcortical Infarcts and Leukoencephalopathy (CARASIL), a rare hereditary CSVD that is inherited in an autosomal recessive manner. Heterozygous HTRA1 mutations can lead to Cerebral Autosomal-Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy type 2 (CADASIL 2), also known as heterozygous HTRA1 mutation carriers. This condition is characterized by clinical manifestations such as stroke, cognitive impairment, gait abnormalities, alopecia, and spondylosis. To date, 35 pathogenic mutations in the HTRA1 gene have been reported, primarily exhibiting autosomal dominant inheritance. Current research mainly focuses on case reports and the potential pathogenic mechanisms associated with different mutation sites. HTRA1 mutations can lead to downregulation of HTRA1 mRNA and protein expression, thereby reducing HTRA1 protease activity. However, the specific morphological and functional changes associated with CSVD, especially those in endothelial cells, remain unclear. This study aims to explore the mutation spectrum and clinical phenotypes of heterozygous HTRA1 mutation carriers. By comparing whole-blood RNA sequencing (RNA-seq) analysis between heterozygous HTRA1 mutation carriers and healthy controls, we identify differentially expressed genes. Based on the RNA-seq results, we further investigate the effects of abnormal HtrA1 expression on the biological functions of mouse brain microvascular endothelial cells and mouse cognitive behavior. This study elucidates the role of HTRA1 in CSVD, providing insights into the pathogenesis and new therapeutic targets for patients with heterozygous HTRA1 mutations.",
+    "Overall_Design": "This submission includes peripheral blood samples from heterozygous HTRA1 mutation carriers (HTRA1mc) and healthy controls (HC). A total of eight samples were analyzed, including four HTRA1mc patients from two independent families and four unrelated healthy controls. The experimental variable under investigation is the presence of heterozygous HTRA1 mutations. HTRA1 mutation carriers represent the experimental group, while healthy controls serve as the reference group. All samples are independent biological replicates.",
+    "AI_Summary_CN": "本研究旨在探讨HTRA1基因突变及其表达调控在脑小血管病(CSVD)发病中的作用机制。采用bulk RNA-seq技术对CSVD患者脑组织进行全转录组测序分析，揭示HTRA1及相关信号通路在血管内皮功能障碍、神经炎症和血脑屏障损伤中的分子调控网络，为阐明CSVD病理进程及开发针对性治疗策略提供重要的理论依据。",
+    "AI_Summary": "本研究旨在探讨HTRA1基因突变及其表达调控在脑小血管病(CSVD)发病中的作用机制。采用bulk RNA-seq技术对CSVD患者脑组织进行全转录组测序分析，揭示HTRA1及相关信号通路在血管内皮功能障碍、神经炎症和血脑屏障损伤中的分子调控网络，为阐明CSVD病理进程及开发针对性治疗策略提供重要的理论依据。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE324041",
+    "Submission_Date": "2026/03/11"
+  },
+  {
     "Accession": "GSE208730",
     "Title": "RNA sequencing of slow-and fast-cycling epidermal stem cells vs hair follicle stem cells in murine back skin, tail skin vs oral epithelium",
     "Organism": "Mus musculus",
