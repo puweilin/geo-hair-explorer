@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE277257",
+    "Title": "Gene expression profile in Shh-expressing cells of hair follicles in mouse during CIA",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 9,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Fuzhou University",
+    "Contributors": "Zhou Guixuan; Fan Ruifang; Lin Xiang; Huang Jingling; Lan Tingjiao; Tang Yuli",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Chemotherapy-induced alopecia (CIA) is a major unsolved adverse effect in clinical oncology. In previous studies, we proved the Sonic hedgehog(Shh) signaling pathway is a major target of cyclophosphamide (CYP). However, how CYP suppresses Shh gene remains unknown. In this study, we isolated Shh-expressing cells in hair follicles of Shh-GFP+/- mice treated with CYP and tested the effect of CYP on these cells. The result showed that Shh-expressing cells decreased significantly post-CYP treatment. RNA sequencing data showed that compared with the control group, 536 and 2,439 genes expressed differentially at 12hrs and 24hrs respectively post-CYP treatment. KEGG enrichment analysis revealed the p53 and the apoptosis signaling pathway were significantly enriched at 12hrs and 24hrs after CYP injection. The immunofluorescence staining of active Caspase 3 confirmed the apoptosis of Shh-expressing cells at 12 hours post-CYP treatment. GSEA analysis, ChIP assay, and AG-490 rescue assay revealed the IFN/JAK/STAT1 signaling pathway participated in regulating Shh during CIA. The results of this study demonstrated the decrease of Shh during CIA not only because of the loss of Shh-expressing cells but also because of the down expression of Shh in Shh-expressing cells. Moreover, this study also proved that apoptosis is the main reason for the loss of Shh-expressing cells, while the IFN/JAK/STAT1 signaling pathway may play an important role in the downregulation of Shh.",
+    "Overall_Design": "Hairs in the back skin of 7-8 weeks-old mice were removed by wax to induce anagen. CYP was intraperitoneally injected in mice 9 days after depilation at 150mg/kg to cause hair loss. Shh-expressing cells were isolated from hair follicles in mice before or 12 and 24 hours post CYP treatment using flow cytometry. A pool of 9 mice were used for RNA sequencing, and divided into the control group (SGC001~SGC003), the CYP12h group (SGC121~SGC123) and the CYP24h group (SGC241~SGC243), among which SGC002, SGC241 and SGC243 were male mice, while the other 6 mice were females. Total RNAs of the Shh-GFP cells were isolated using a RNA isolater Reagent (Vazyme, Nanjing, China), and quality was monitored by Agilent 2100 analysis and proceeded for sequencing by an Illumina NovaSeq 6000 RNA sequencing platform (Novogene, Beijing, China). The RNA sequencing data were mapped to the mouse genome assembly GRCm39 using the HISAT2 program.",
+    "AI_Summary_CN": "本研究旨在阐明化疗药物环磷酰胺(CYP)抑制毛囊Sonic hedgehog(Shh)信号通路的分子机制。利用Shh-GFP+/-小鼠模型，分选CYP处理后毛囊中的Shh表达细胞进行bulk RNA-seq分析。结果显示，CYP处理后Shh表达细胞显著减少。差异表达基因分析发现，12小时和24小时分别有536和2399个基因发生显著变化。KEGG通路富集分析表明，p53信号通路和凋亡通路在两个时间点均显著富集，提示CYP可能通过激活p53介导的凋亡途径抑制Shh表达细胞，从而导致化疗诱导性脱发。该研究为揭示CIA的发病机制提供了新的分子视角。",
+    "AI_Summary": "本研究旨在阐明化疗药物环磷酰胺(CYP)抑制毛囊Sonic hedgehog(Shh)信号通路的分子机制。利用Shh-GFP+/-小鼠模型，分选CYP处理后毛囊中的Shh表达细胞进行bulk RNA-seq分析。结果显示，CYP处理后Shh表达细胞显著减少。差异表达基因分析发现，12小时和24小时分别有536和2399个基因发生显著变化。KEGG通路富集分析表明，p53信号通路和凋亡通路在两个时间点均显著富集，提示CYP可能通过激活p53介导的凋亡途径抑制Shh表达细胞，从而导致化疗诱导性脱发。该研究为揭示CIA的发病机制提供了新的分子视角。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE277257",
+    "Submission_Date": "2026/03/16"
+  },
+  {
     "Accession": "GSE286328",
     "Title": "Single-Cell Chromatin Accessibility Landscape of Developing Perinatal Mouse Skin: A Multi-Omics Approach to Lineage Specification [scATAC-seq and scRNA-seq]",
     "Organism": "Mus musculus",
