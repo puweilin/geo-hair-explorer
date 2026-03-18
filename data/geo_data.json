@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE316832",
+    "Title": "Comprehensive single-cell transcriptomic profiling of the scalp from patients with moderate-to-severe alopecia areata",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 30,
+    "Platform": "34281",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "Icahn School of Medicine at Mount Sinai",
+    "Contributors": "Hu Benjamin; He Helen; Bose Swaroop; Gour Digpal; Nandymazumdar Monali; Zhou Jerry; Golla Anudeep; del Duca Ester; Beaziz Jessica; Avallone Gianluca; Zhao William; Pfeifer Hailey; DeGrange Madeleine; Taliercio Mark; Pasumarthi Anusha; Estrada Yeriel; Guttman-Yassky Emma",
+    "PubMed_IDs": "41740930",
+    "Supplementary_Size": "N/A",
+    "Summary": "Background: Alopecia areata (AA) is an autoimmune hair loss disorder characterized by follicular destruction. While bulk transcriptomic studies have identified contributory inflammatory axes, specific cell pathways remain underexplored. Objective: To characterize the single-cell transcriptomic landscape underpinning AA scalp compared to healthy controls. Methods: We performed single-cell RNA-sequencing on lesional and nonlesional scalp biopsies from 13 patients with moderate-to-severe AA (5 with alopecia totalis/universalis [AT/AU]) and 11 healthy controls. Results: Overall, we profiled 41,067 high-quality cells. Lesional AA samples demonstrated robust Th1 activation and cytotoxicity, with upregulated IFNG, GZMH/K, and XCL1/2. Concurrently, Th2 skewing (IL13, IL13RA1, IL4R) and TNFRSF4/OX40 elevations in lesional CD4+ and regulatory T-cells were also observed. IL15, JAK2/3, and STAT1 levels were increased in distinct lesional dendritic cell subsets, with JAK/STAT genes also upregulated in fibroblasts and keratinocytes. Fibroblasts and smooth muscle cells exhibited enriched pro-inflammatory and pro-fibrotic markers (CXCL9, CCL26, POSTN, COL5A3, COL6A6). Lesional keratinocytes further demonstrated downregulated hair keratins and increased interferon signaling. AA endothelial cells showed increased angiogenic and interferon signatures. Compared to patchy AA and controls, AT/AU demonstrated higher expression of multiple cytotoxic, Th1, Th2, and JAK/STAT markers in immune cells, and proliferative and inflammatory signatures in non-immune cells. Conclusion: This comprehensive high-resolution single-cell map uncovers potential communication networks between immune and non-immune cell populations in AA scalp, possibly disrupting immune privilege at the hair follicle and driving disease progression and/or severity. Clinical Implications: These data provide single-cell-resolution insights into AA pathogenesis and potential molecular targets for precision therapies tailored to AA severity.",
+    "Overall_Design": "Lesional and nonlesional skin biopsies were taken from the scalp of 13 patients with moderate-to-severa alopecia areata, as well as biopsies from 11 matching controls. Biopsies were cryopreserved and processed by 10x Genomics. The library was sequenced on the Illumina NovaSeq X platform.",
+    "AI_Summary_CN": "本研究旨在表征中重度斑秃（AA）患者头皮的单细胞转录组景观，以探索其免疫发病机制。通过对13名中重度AA患者（含5名全秃/普秃）及11名健康对照的头皮活检进行单细胞RNA测序，共分析41,067个高质量细胞。研究发现病变区AA样本呈现显著的Th1激活和细胞毒性增强（IFNG、GZMH/K、XCL1/2上调），同时伴有Th2偏移（IL13、IL13RA1、IL4R）及TNFRSF4/OX40等共刺激分子表达，揭示了斑秃复杂的免疫失调网络，为精准干预提供了潜在的分子靶点。",
+    "AI_Summary": "本研究旨在表征中重度斑秃（AA）患者头皮的单细胞转录组景观，以探索其免疫发病机制。通过对13名中重度AA患者（含5名全秃/普秃）及11名健康对照的头皮活检进行单细胞RNA测序，共分析41,067个高质量细胞。研究发现病变区AA样本呈现显著的Th1激活和细胞毒性增强（IFNG、GZMH/K、XCL1/2上调），同时伴有Th2偏移（IL13、IL13RA1、IL4R）及TNFRSF4/OX40等共刺激分子表达，揭示了斑秃复杂的免疫失调网络，为精准干预提供了潜在的分子靶点。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316832",
+    "Submission_Date": "2026/03/16"
+  },
+  {
     "Accession": "GSE277257",
     "Title": "Gene expression profile in Shh-expressing cells of hair follicles in mouse during CIA",
     "Organism": "Mus musculus",
