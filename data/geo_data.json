@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE325671",
+    "Title": "Single-cell RNA-seq profiling of the DHT-induced androgenetic alopecia (AGA) mouse model treated with anti-DKK3 antibody",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 3,
+    "Platform": "24247",
+    "Country": "South Korea",
+    "Lab": "",
+    "Institute": "Epi Biotech Co., Ltd.",
+    "Contributors": "Sung Jong-Hyuk; Noh Minsoo; An Seungchan; Kim Hyunju; Zheng Mei; Park In Guk; Song Leegu",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Androgenetic alopecia (AGA) is characterized by progressive hair follicle miniaturization and remodeling of the skin microenvironment. To investigate cellular changes associated with AGA and the effects of DKK3 blockade, we performed single-cell RNA sequencing (scRNA-seq) of dorsal skin from a DHT-induced mouse model. Three experimental groups of male C3H/HeN mice were analyzed: vehicle control, DHT-treated AGA model, and DHT-treated mice receiving anti-DKK3 neutralizing antibody. Single-cell transcriptomic profiling identified cell population changes associated with DHT exposure and their modulation by anti-DKK3 treatment. This dataset provides a single-cell atlas of dorsal skin in the AGA model and following DKK3 inhibition.",
+    "Overall_Design": "Dorsal skin samples were collected from three groups of male C3H/HeN mice: vehicle control, DHT-treated AGA model, and DHT-treated AGA model with anti-DKK3 neutralizing antibody.",
+    "AI_Summary_CN": "本研究旨在探究雄激素性脱发（AGA）的细胞机制及DKK3阻断的治疗潜力。采用单细胞RNA测序技术对DHT诱导的AGA小鼠模型背部皮肤进行分析，设置了对照组、AGA模型组及抗DKKK3抗体治疗组三个实验组。研究揭示了DHT暴露导致的细胞群变化，并发现抗DKK3抗体可有效调节这些改变。本数据集为AGA疾病机制研究及DKK3作为治疗靶点提供了宝贵的单细胞资源。",
+    "AI_Summary": "本研究旨在探究雄激素性脱发（AGA）的细胞机制及DKK3阻断的治疗潜力。采用单细胞RNA测序技术对DHT诱导的AGA小鼠模型背部皮肤进行分析，设置了对照组、AGA模型组及抗DKKK3抗体治疗组三个实验组。研究揭示了DHT暴露导致的细胞群变化，并发现抗DKK3抗体可有效调节这些改变。本数据集为AGA疾病机制研究及DKK3作为治疗靶点提供了宝贵的单细胞资源。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325671",
+    "Submission_Date": "2026/03/23"
+  },
+  {
     "Accession": "GSE316832",
     "Title": "Comprehensive single-cell transcriptomic profiling of the scalp from patients with moderate-to-severe alopecia areata",
     "Organism": "Homo sapiens",
