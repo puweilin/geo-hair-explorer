@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE294435",
+    "Title": "Transcription Elongation Factor SPT6 Maintains Epidermal Homeostasis and Suppresses Skin Inflammation in Mice",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 2,
+    "Platform": "34290",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "The First Affiliated Hospital, Sun Yat-sen University",
+    "Contributors": "Li Jingting; Sun Yushuang",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "We employed single-cell RNA sequencing (scRNA-seq) using 10x Genomics technology to investigate the impact of Supt6 epidermis-specific knockout on epidermal homeostasis in mice. The histone chaperone SPT6 is a central regulator of genomic stability. Our previous studies have shown that SPT6 promotes epidermal differentiation by regulating transcriptional elongation in human epidermal stem/progenitor cells, but its in vivo role remains unclear. Our research has discovered for the first time that the transcriptional elongation factor SPT6 regulates skin inflammation, hair follicle development, and wound healing, providing a novel therapeutic target for clinical treatment of psoriasis and related skin disorders.",
+    "Overall_Design": "single cell RNA-seq of wild-type mice and Supt6 KO mice epidermis, collected on the 5th day after the final tamoxifen injection.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294435",
+    "Submission_Date": "2026/03/26"
+  },
+  {
     "Accession": "GSE325671",
     "Title": "Single-cell RNA-seq profiling of the DHT-induced androgenetic alopecia (AGA) mouse model treated with anti-DKK3 antibody",
     "Organism": "Mus musculus",
