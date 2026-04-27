@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE328626",
+    "Title": "Transcriptome Analysis of Palmitic Acid-treated Human Primary Hair Follicle Stem Cells",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "southern medical university",
+    "Contributors": "",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "The effect of palmitic acid (PA) on human primary hair follicle stem cells (HFSCs) remains unclear. In this study, HFSCs were treated with PA or vehicle control, and transcriptome sequencing was performed to investigate the molecular alterations. Our results indicate that PA treatment activates peroxisome proliferator-activated receptor (PPAR) and other related signaling pathways. This dataset provides a comprehensive transcriptional profile of PA-treated HFSCs, offering insights into the potential regulatory mechanisms of PA in hair follicle biology and serving as a resource for further studies on lipid metabolism and stem cell function.",
+    "Overall_Design": "The study was designed with two experimental groups: untreated control hair follicle stem cells (HFSCs), and HFSCs treated with palmitic acid (PA). Each group included three independent biological replicates.",
+    "AI_Summary_CN": "本研究旨在探究棕榈酸（PA）对人原代毛囊干细胞（HFSCs）的影响及分子机制。采用bulk RNA-seq技术对PA处理组与对照组HFSCs进行转录组测序分析。结果显示，PA处理显著激活过氧化物酶体增殖物激活受体（PPAR）及相关信号通路。本研究首次提供了PA处理HFSCs的全面转录组谱，为阐明脂质代谢在毛囊干细胞功能调控中的作用机制提供了重要资源。",
+    "AI_Summary": "本研究旨在探究棕榈酸（PA）对人原代毛囊干细胞（HFSCs）的影响及分子机制。采用bulk RNA-seq技术对PA处理组与对照组HFSCs进行转录组测序分析。结果显示，PA处理显著激活过氧化物酶体增殖物激活受体（PPAR）及相关信号通路。本研究首次提供了PA处理HFSCs的全面转录组谱，为阐明脂质代谢在毛囊干细胞功能调控中的作用机制提供了重要资源。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328626",
+    "Submission_Date": "2026/04/26"
+  },
+  {
     "Accession": "GSE300342",
     "Title": "H3K9me3 controls epidermis development by repressing RNA Pol II activity on key promoters and enhancers [bulk RNA-Seq]",
     "Organism": "Mus musculus",
