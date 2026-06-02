@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE144322",
+    "Title": "Profiling anagen skin in control and Fgf5 mutant mice",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 20,
+    "Platform": "21103",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of California, Irvine",
+    "Contributors": "Plikus Maksim; Guerrero-Juarez Christian; Yu Zhengquan; Liu Ruiqi",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "We report transcriptomes of cells from adult mouse skin in anagen phase of the hair growth cycle, comparing control tamoxifen induced Nfatc1-CreER;mTmG mice with mutant tamoxifen induced Nfatc1-CreER;mTmG;Fgf5-/- mice. Dead cells were removed from whole skin tissue using dead cell removal kit (MACS). Remaining live cells were analyzed.",
+    "Overall_Design": "Examination of single cell heterogeneity in anagen skin betweenÂ Nfatc1-CreER;mTmG and Nfatc1-CreER;mTmG;Fgf5-/- mice.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144322",
+    "Submission_Date": "2026/06/01"
+  },
+  {
     "Accession": "GSE325704",
     "Title": "Effect of Activated Hair Follicle Stem Cells on Gene Expression During Hair Regrowth in Mice",
     "Organism": "Mus musculus",
