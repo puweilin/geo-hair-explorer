@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE314972",
+    "Title": "Single-cell transcriptomic profiling of frontal fibrosing alopecia reveals preserved cellular architecture with stress-driven epithelial reprogramming and non-cytotoxic inflammation",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 8,
+    "Platform": "24676",
+    "Country": "USA",
+    "Lab": "Laboratory of Investigative Dermatology",
+    "Institute": "Rockefeller University",
+    "Contributors": "DÃ¡vila-Flores Viviana; Gay-Mimbrera JesÃºs; MochÃ³n-JimÃ©nez Carmen; Rivera-Ruiz Irene; de Luque-FernÃ¡ndez Juan; GÃ³mez-Arias Pedro; Isla-Tejera Beatriz; Ungar Benjamin; Hu Benjamin; He Helen; Leiva-Cepas Fernando; Guttman-Yassky Emma; Ruano Juan",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Background: Frontal fibrosing alopecia (FFA) is a primary cicatricial alopecia characterised by progressive follicular fibrosis and irreversible hair loss. Despite increasing clinical recognition, the cellular mechanisms sustaining disease persistence remain incompletely defined. Objectives: To define cell-type–specific transcriptional states and inter-compartmental signalling networks in lesional scalp from patients with FFA using single-cell RNA sequencing. Methods: Single-cell RNA sequencing was performed on lesional scalp biopsies from patients with FFA (n = 4) and matched control samples (n = 4). Cells were annotated into major lineages and refined subpopulations, and functional programmes and ligand–receptor-mediated communication were analysed. Results: Analysis of 38,984 high-quality cells revealed preservation of overall cellular composition and lineage architecture in FFA compared with controls. Despite this stability, marked disease-associated transcriptional reprogramming was observed across epithelial, immune and stromal compartments. Keratinocytes retained compartment-specific identity but exhibited prominent activation of stress-response and inflammatory pathways, particularly within upper follicle and bulge/outer root sheath populations. Dermal fibroblasts aligned along a continuous inflammation–fibrosis axis, with relative expansion of inflammatory and ACTA2⁺ states and strengthened coupling between inflammatory and fibrotic programmes. Immune profiling demonstrated skewing of CD4⁺ T cells towards Th1-, Th2- and Th22-associated signatures, together with macrophage reprogramming towards pro-fibrotic, tissue-remodelling states. Ligand–receptor analysis identified TGFB-centred signalling as the dominant inter-compartmental communication axis linking epithelial stress to immune modulation and fibroblast activation. Conclusions: FFA exhibits preserved cellular architecture but extensive, compartment-specific transcriptional reprogramming. Chronic epithelial stress and TGFB-driven inter-compartmental signalling, rather than overt cytotoxic inflammation, emerge as central disease mechanisms.",
+    "Overall_Design": "Scalp skin biopsies were obtained from patients diagnosed with frontal fibrosing alopecia (FFA) and from healthy control subjects. Single-cell suspensions were generated from each biopsy and processed independently. Single-cell RNA sequencing libraries were prepared using the 10x Genomics Chromium Single Cell 3â² platform, enabling transcriptomic profiling at single-cell resolution. Libraries were sequenced using paired-end Illumina sequencing. Raw sequencing reads were processed using Cell Ranger with alignment to the human reference genome (GRCh38), and filtered feature-barcode matrices were generated for each sample. The study design allows comparative analysis of cell-typeâspecific transcriptional profiles between FFA and control scalp skin.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314972",
+    "Submission_Date": "2026/06/29"
+  },
+  {
     "Accession": "GSE334860",
     "Title": "Transcriptome analysis of circSmad5 knockdown in immortalized hair follicle stem cells (iHFSC2)",
     "Organism": "Mus musculus",
