@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE280028",
+    "Title": "Developing a differentiation-inducing therapeutic strategy for sarcomatoid renal cell carcinoma",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "29480",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Beijing Chaoyang Hospital",
+    "Contributors": "Liu Jian",
+    "PubMed_IDs": "41109566",
+    "Supplementary_Size": "N/A",
+    "Summary": "Sarcomatoid renal cell carcinoma (sRCC) represents the least differentiated and most aggressive clinicopathological phenotype of RCC, with no established effective therapies and most patients surviving less than 1 year. Herein, based on the co-progenitor cell theory and the potential plasticity of sarcomatoid dedifferentiation, we developed a differentiation-inducing therapeutic strategy and identified PLOD2 as a potential intervention target by multi-omics screening. We demonstrated that PLOD2 is significantly upregulated in the sarcomatoid component of sRCC patients compared to the adjacent normal and neighboring epithelioid counterparts, functionally driving sarcomatoid dedifferentiation through concomitant activation of cancer stemness, dedifferentiation, and EMT, and correlating with higher tumor grade, metastasis, and poorer patient survival. Depletion of PLOD2 in sRCC cells resulted in efficient epithelioid differentiation, tumor suppression and sensitization to conventional RCC therapies of doxorubicin, gemcitabine, IFN-α and VEGFR-TKI. Further investigation revealed that, DCLK1, a recently identified cancer stem cell marker, was downstream of PLOD2 in mediating sarcomatoid dedifferentiation, and rescue of DCLK1 could partially restore the sarcomatoid appearance of PLOD2-ablated sRCC cells. Importantly, pharmacological targeting of PLOD2 by minoxidil, an FDA-approved drug for androgenetic alopecia, could induce sRCC differentiation and enhance the anti-tumor activity of conventional therapies. Overall, our study identifies a potential molecular biomarker and driver for sRCC, and offers a novel promising therapeutic strategy and intervention target for this intractable and devastating disease.",
+    "Overall_Design": "PLOD2 was genetically ablated using CRISPR/Cas9 technology in 786-O cells, and the ablated and control cells were then subjected to RNA-seq profiling analysis.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE280028",
+    "Submission_Date": "2026/07/08"
+  },
+  {
     "Accession": "GSE314972",
     "Title": "Single-cell transcriptomic profiling of frontal fibrosing alopecia reveals preserved cellular architecture with stress-driven epithelial reprogramming and non-cytotoxic inflammation",
     "Organism": "Homo sapiens",
