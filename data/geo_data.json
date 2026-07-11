@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE310777",
+    "Title": "ALKBH5 acts as an intrinsic facilitator for hair follicle telogen-to-anagen transition",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 16,
+    "Platform": "34290",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Southern Medical University",
+    "Contributors": "Chen Shijun; Zhang Yanqun; Liu Yuchen; Huang Tao; Ding Ke; Zhou Hongwei; Rong Zhili; Lin Ying",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Hair cycle transitions play a pivotal role in sustaining hair growth, particularly the switch from telogen to anagen. During this process, hair follicle stem cells (HFSCs) are regulated by a complex and dynamic niche of signals that drive the cell state from quiescence to activation. However, how HFSCs intrinsically adjust their state to respond to these signals remains unclear. Here, we show that Alkbh5 expression is downregulated during late telogen, and its deletion promotes HFSC activation and proliferation, accelerating the telogen–anagen transition in mice. In vitro, ALKBH5-deficient HFSCs display enhanced proliferation under 3D culture. Loss of ALKBH5 increases the m6A methylation of Mcam, which is subsequently recognized and bound by YTHDF1, thereby stabilizing Mcam mRNA. Mcam expression parallels ALKBH5 during late telogen, and Mcam knockdown impairs HFSC proliferation, perhaps by reducing Wnt responsiveness. We conclude that ALKBH5, an intrinsic facilitator for hair cycle transition, dynamically regulates Mcam expression mediated by m6A methylation, which is required to activate HFSC to maintain the hair cycle.",
+    "Overall_Design": "The RNA-seq datasets were generated from bulge hair follicle stem cells and hair germ stem cells isolated from postnatal day 69 (P69) wild-type and Alkbh5 conditional knockout (cKO) mice.And m6A-seq profiling of  bulge hair follicle stem cells from P69 wild-type and Alkbh5 conditional knockout (cKO) mice",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310777",
+    "Submission_Date": "2026/07/10"
+  },
+  {
     "Accession": "GSE280028",
     "Title": "Developing a differentiation-inducing therapeutic strategy for sarcomatoid renal cell carcinoma",
     "Organism": "Homo sapiens",
