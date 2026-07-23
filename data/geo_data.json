@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE303402",
+    "Title": "Human induced pluripotent stem cell-derived skin organoids recapitulate donor-specific pigmentation diversity",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 2,
+    "Platform": "34284",
+    "Country": "USA",
+    "Lab": "Koehler Lab",
+    "Institute": "Boston Children's Hospital-Harvard Medical School",
+    "Contributors": "Koehler Karl R.; Kim Jin; Lee Jiyoon",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Skin and hair pigmentation vary widely across individuals, but the underlying mechanisms responsible for these differences remain poorly understood. To address this, we employ a recently developed skin organoid (SkO) culture system that bioengineers nearly complete skin, including hair follicles and pigmentation, from human pluripotent stem cells. In this study, we generate SkOs from a panel of iPSC lines derived from donors with varying skin tones – light- and dark-pigmented. By modulating TGFβ, BMP4, and FGF signaling pathways during early differentiation, followed by 4–5 months in floating culture, we generated SkOs. Through immunostaining and transmission electron microscopy, we observed distinct pigmentation patterns and differences in melanin production in both the skin and hair follicles of organoids derived from different donor lines. We further perform single-cell RNA sequencing to uncover gene expression profiles associated with these pigmentation differences. This work provides insights into the cellular and molecular bases of human pigment variation and highlights the SkO model as a powerful tool for studying individual differences in skin biology and development.",
+    "Overall_Design": "Light- and dark-pigmented skin organoids (SkO) at day 130 for scRNA-seq using the Chromium Single Cell 3â system (10x Genomics)",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303402",
+    "Submission_Date": "2026/07/22"
+  },
+  {
     "Accession": "GSE310777",
     "Title": "ALKBH5 acts as an intrinsic facilitator for hair follicle telogen-to-anagen transition",
     "Organism": "Mus musculus",
