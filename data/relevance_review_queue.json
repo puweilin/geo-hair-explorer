@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "Accession": "GSE303380",
+    "Title": "Lateral plate mesoderm directs human amnion and ventral skin organoid formation",
+    "Summary": "Recently, we demonstrated that craniofacial skin, including dermis, epidermis, and hair, can be derived by manipulating signaling factors to co-induce epidermal-dermal progenitors. Here, we advance this approach by controlling the size and composition of cranial skin organoids (cSkOs) and incorporating lateral plate mesoderm (LPM) cells to create ventral skin organoids (vSkOs) and human amnion-like structures, termed Amnioids. Amnioids, resembling their extra-embryonic counterparts, are avascular and rapidly expand into large, hairless cysts, while vSkOs develop primitive vasculature and numerous hair follicles. Single-cell RNA sequencing identified distinct gene expression patterns and developmental trajectories, revealing the critical roles of Wnt and YAP/Hippo signaling in directing divergent fates. Functional experiments underscored the importance of mechanical forces and mesenchymal-epithelial interactions in shaping tissue growth and organization. This study presents a novel in vitro model to explore the interface of embryonic and extraembryonic tissues, with implications for understanding congenital disorders and advancing regenerative medicine.",
+    "Overall_Design": "LPM, amnioid and cranial skin organoids (cSKO) at day 6, day 28, and day 104 as well as ventral skin organoids (vSKO) at day 128 using scRNA-seq",
+    "Submission_Date": "2026/07/22",
+    "Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303380"
+  }
+]
