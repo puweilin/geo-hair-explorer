@@ -14,8 +14,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Skin and hair pigmentation vary widely across individuals, but the underlying mechanisms responsible for these differences remain poorly understood. To address this, we employ a recently developed skin organoid (SkO) culture system that bioengineers nearly complete skin, including hair follicles and pigmentation, from human pluripotent stem cells. In this study, we generate SkOs from a panel of iPSC lines derived from donors with varying skin tones – light- and dark-pigmented. By modulating TGFβ, BMP4, and FGF signaling pathways during early differentiation, followed by 4–5 months in floating culture, we generated SkOs. Through immunostaining and transmission electron microscopy, we observed distinct pigmentation patterns and differences in melanin production in both the skin and hair follicles of organoids derived from different donor lines. We further perform single-cell RNA sequencing to uncover gene expression profiles associated with these pigmentation differences. This work provides insights into the cellular and molecular bases of human pigment variation and highlights the SkO model as a powerful tool for studying individual differences in skin biology and development.",
     "Overall_Design": "Light- and dark-pigmented skin organoids (SkO) at day 130 for scRNA-seq using the Chromium Single Cell 3â system (10x Genomics)",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究利用人类诱导多能干细胞来源的皮肤类器官，通过调控TGFβ、BMP4和FGF信号通路，成功构建了来自不同肤色供体的皮肤模型。结合bulk RNA-seq、免疫染色和透射电镜技术，揭示了供体特异性色素沉着的差异及其在皮肤和毛囊中的黑色素生成特征，为解析肤色多样性的分子机制提供了新平台。",
+    "AI_Summary": "本研究利用人类诱导多能干细胞来源的皮肤类器官，通过调控TGFβ、BMP4和FGF信号通路，成功构建了来自不同肤色供体的皮肤模型。结合bulk RNA-seq、免疫染色和透射电镜技术，揭示了供体特异性色素沉着的差异及其在皮肤和毛囊中的黑色素生成特征，为解析肤色多样性的分子机制提供了新平台。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303402",
     "Submission_Date": "2026/07/22"
   },
@@ -34,8 +34,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Hair cycle transitions play a pivotal role in sustaining hair growth, particularly the switch from telogen to anagen. During this process, hair follicle stem cells (HFSCs) are regulated by a complex and dynamic niche of signals that drive the cell state from quiescence to activation. However, how HFSCs intrinsically adjust their state to respond to these signals remains unclear. Here, we show that Alkbh5 expression is downregulated during late telogen, and its deletion promotes HFSC activation and proliferation, accelerating the telogen–anagen transition in mice. In vitro, ALKBH5-deficient HFSCs display enhanced proliferation under 3D culture. Loss of ALKBH5 increases the m6A methylation of Mcam, which is subsequently recognized and bound by YTHDF1, thereby stabilizing Mcam mRNA. Mcam expression parallels ALKBH5 during late telogen, and Mcam knockdown impairs HFSC proliferation, perhaps by reducing Wnt responsiveness. We conclude that ALKBH5, an intrinsic facilitator for hair cycle transition, dynamically regulates Mcam expression mediated by m6A methylation, which is required to activate HFSC to maintain the hair cycle.",
     "Overall_Design": "The RNA-seq datasets were generated from bulge hair follicle stem cells and hair germ stem cells isolated from postnatal day 69 (P69) wild-type and Alkbh5 conditional knockout (cKO) mice.And m6A-seq profiling of  bulge hair follicle stem cells from P69 wild-type and Alkbh5 conditional knockout (cKO) mice",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "该研究利用bulk RNA-seq技术，探究ALKBH5在毛囊休止期向生长期转换中的作用。发现ALKBH5下调可促进毛囊干细胞激活与增殖，加速毛发生长周期转换。机制上，ALKBH5缺失通过m6A甲基化修饰Mcam mRNA，经YTHDF1识别稳定其表达。研究揭示了HFSCs内在调控新机制，为脱发治疗提供潜在靶点。",
+    "AI_Summary": "该研究利用bulk RNA-seq技术，探究ALKBH5在毛囊休止期向生长期转换中的作用。发现ALKBH5下调可促进毛囊干细胞激活与增殖，加速毛发生长周期转换。机制上，ALKBH5缺失通过m6A甲基化修饰Mcam mRNA，经YTHDF1识别稳定其表达。研究揭示了HFSCs内在调控新机制，为脱发治疗提供潜在靶点。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310777",
     "Submission_Date": "2026/07/10"
   },
@@ -54,8 +54,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Sarcomatoid renal cell carcinoma (sRCC) represents the least differentiated and most aggressive clinicopathological phenotype of RCC, with no established effective therapies and most patients surviving less than 1 year. Herein, based on the co-progenitor cell theory and the potential plasticity of sarcomatoid dedifferentiation, we developed a differentiation-inducing therapeutic strategy and identified PLOD2 as a potential intervention target by multi-omics screening. We demonstrated that PLOD2 is significantly upregulated in the sarcomatoid component of sRCC patients compared to the adjacent normal and neighboring epithelioid counterparts, functionally driving sarcomatoid dedifferentiation through concomitant activation of cancer stemness, dedifferentiation, and EMT, and correlating with higher tumor grade, metastasis, and poorer patient survival. Depletion of PLOD2 in sRCC cells resulted in efficient epithelioid differentiation, tumor suppression and sensitization to conventional RCC therapies of doxorubicin, gemcitabine, IFN-α and VEGFR-TKI. Further investigation revealed that, DCLK1, a recently identified cancer stem cell marker, was downstream of PLOD2 in mediating sarcomatoid dedifferentiation, and rescue of DCLK1 could partially restore the sarcomatoid appearance of PLOD2-ablated sRCC cells. Importantly, pharmacological targeting of PLOD2 by minoxidil, an FDA-approved drug for androgenetic alopecia, could induce sRCC differentiation and enhance the anti-tumor activity of conventional therapies. Overall, our study identifies a potential molecular biomarker and driver for sRCC, and offers a novel promising therapeutic strategy and intervention target for this intractable and devastating disease.",
     "Overall_Design": "PLOD2 was genetically ablated using CRISPR/Cas9 technology in 786-O cells, and the ablated and control cells were then subjected to RNA-seq profiling analysis.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "该研究针对肉瘤样肾细胞癌（sRCC）缺乏有效疗法、患者生存期短的问题，基于共同祖细胞理论，通过多组学筛选发现PLOD2为潜在干预靶点。利用bulk RNA-seq等技术证实，PLOD2在sRCC肉瘤样成分中显著上调，通过激活癌症干性、去分化和EMT驱动肉瘤样去分化，为分化诱导治疗策略提供了新方向。",
+    "AI_Summary": "该研究针对肉瘤样肾细胞癌（sRCC）缺乏有效疗法、患者生存期短的问题，基于共同祖细胞理论，通过多组学筛选发现PLOD2为潜在干预靶点。利用bulk RNA-seq等技术证实，PLOD2在sRCC肉瘤样成分中显著上调，通过激活癌症干性、去分化和EMT驱动肉瘤样去分化，为分化诱导治疗策略提供了新方向。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE280028",
     "Submission_Date": "2026/07/08"
   },
@@ -74,8 +74,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Background: Frontal fibrosing alopecia (FFA) is a primary cicatricial alopecia characterised by progressive follicular fibrosis and irreversible hair loss. Despite increasing clinical recognition, the cellular mechanisms sustaining disease persistence remain incompletely defined. Objectives: To define cell-type–specific transcriptional states and inter-compartmental signalling networks in lesional scalp from patients with FFA using single-cell RNA sequencing. Methods: Single-cell RNA sequencing was performed on lesional scalp biopsies from patients with FFA (n = 4) and matched control samples (n = 4). Cells were annotated into major lineages and refined subpopulations, and functional programmes and ligand–receptor-mediated communication were analysed. Results: Analysis of 38,984 high-quality cells revealed preservation of overall cellular composition and lineage architecture in FFA compared with controls. Despite this stability, marked disease-associated transcriptional reprogramming was observed across epithelial, immune and stromal compartments. Keratinocytes retained compartment-specific identity but exhibited prominent activation of stress-response and inflammatory pathways, particularly within upper follicle and bulge/outer root sheath populations. Dermal fibroblasts aligned along a continuous inflammation–fibrosis axis, with relative expansion of inflammatory and ACTA2⁺ states and strengthened coupling between inflammatory and fibrotic programmes. Immune profiling demonstrated skewing of CD4⁺ T cells towards Th1-, Th2- and Th22-associated signatures, together with macrophage reprogramming towards pro-fibrotic, tissue-remodelling states. Ligand–receptor analysis identified TGFB-centred signalling as the dominant inter-compartmental communication axis linking epithelial stress to immune modulation and fibroblast activation. Conclusions: FFA exhibits preserved cellular architecture but extensive, compartment-specific transcriptional reprogramming. Chronic epithelial stress and TGFB-driven inter-compartmental signalling, rather than overt cytotoxic inflammation, emerge as central disease mechanisms.",
     "Overall_Design": "Scalp skin biopsies were obtained from patients diagnosed with frontal fibrosing alopecia (FFA) and from healthy control subjects. Single-cell suspensions were generated from each biopsy and processed independently. Single-cell RNA sequencing libraries were prepared using the 10x Genomics Chromium Single Cell 3â² platform, enabling transcriptomic profiling at single-cell resolution. Libraries were sequenced using paired-end Illumina sequencing. Raw sequencing reads were processed using Cell Ranger with alignment to the human reference genome (GRCh38), and filtered feature-barcode matrices were generated for each sample. The study design allows comparative analysis of cell-typeâspecific transcriptional profiles between FFA and control scalp skin.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究利用单细胞RNA测序技术，对额部纤维性脱发（FFA）患者的头皮病变组织（n=4）与对照样本（n=4）进行转录组分析，旨在揭示细胞类型特异性转录状态及区间信号网络。通过对38,984个高质量细胞的分析，发现FFA中细胞结构基本保留，但存在应激驱动的上皮重编程和非细胞毒性炎症，为理解疾病持续机制提供了新见解。",
+    "AI_Summary": "本研究利用单细胞RNA测序技术，对额部纤维性脱发（FFA）患者的头皮病变组织（n=4）与对照样本（n=4）进行转录组分析，旨在揭示细胞类型特异性转录状态及区间信号网络。通过对38,984个高质量细胞的分析，发现FFA中细胞结构基本保留，但存在应激驱动的上皮重编程和非细胞毒性炎症，为理解疾病持续机制提供了新见解。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314972",
     "Submission_Date": "2026/06/29"
   },
@@ -94,8 +94,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "To investigate the role ofcircSmad5 in hair follicle stem cells (HFSCs), we performed RNA-seq on iHFSC2 cells with circSmad5 knockdown (shcircSmad5) versus empty vector control. Knockdown of circSmad5 increased hair count in a hair reconstitution model and activated Wnt/β-catenin and Mrs/Erk signaling pathways. This study provides transcriptomic insights into how circSmad5 regulates HFSC stemness and differentiation.",
     "Overall_Design": "To reveal the regulatory function of circSmad5 in HFSCs, iHFSC2 cells were infected with lentivirus carrying circSmad5 knockdown (pwslv-shcircSmad5) or empty vector control. After puromycin selection for 15 days, stable cell lines were established. Total RNA was extracted and subjected to RNA sequencing.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究通过bulk RNA-seq技术，对敲低circSmad5的永生化毛囊干细胞（iHFSC2）进行转录组分析，旨在探究circSmad5在毛囊干细胞中的调控作用。结果显示，circSmad5敲低可增加毛发数量，并激活Wnt/β-catenin和Mrs/Erk信号通路，为揭示circSmad5调控毛囊干细胞干性与分化的分子机制提供了转录组学见解。",
+    "AI_Summary": "本研究通过bulk RNA-seq技术，对敲低circSmad5的永生化毛囊干细胞（iHFSC2）进行转录组分析，旨在探究circSmad5在毛囊干细胞中的调控作用。结果显示，circSmad5敲低可增加毛发数量，并激活Wnt/β-catenin和Mrs/Erk信号通路，为揭示circSmad5调控毛囊干细胞干性与分化的分子机制提供了转录组学见解。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334860",
     "Submission_Date": "2026/06/09"
   },
@@ -114,8 +114,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "The exogen phase of the hair follicle cycle, during which club hairs are shed and new hairs emerge, represents a pivotal yet understudied transition marked by structural remodeling and cell fate changes. This study investigates the role of the transcription factor Msx2 in regulating hair anchoring, hair follicle stem cell (HFSC) lineage commitment, and extracellular matrix (ECM) remodeling during exogen. Using Msx2-knockout (KO) mice, we integrated transcriptomic, epigenomic, and functional assays to reveal Msx2 as a key regulator of exogen, critical for maintaining HFSC niche integrity, preserving bulge architecture, and coordinating lineage progression during hair regeneration. By modulating the balance between TGF-β and Wnt signaling pathways, Msx2 ensures proper HFSC activation and prevents premature epidermal differentiation and hair shedding. These findings provide mechanistic insights into the molecular control of hair cycling and highlight Msx2 dysfunction as a potential contributor to hair loss disorders, positioning it as a promising therapeutic target in regenerative dermatology.",
     "Overall_Design": "To elucidate the role of Msx2 in regulating hair follicle stem cell (HFSC) behavior and chromatin dynamics during the exogen phase of the hair cycle, we performed bulk RNA sequencing (RNA-seq) and assay for transposase-accessible chromatin using sequencing (ATAC-seq) on fluorescence-activated cell-sorted (FACS) epidermal stem cell populations from adult Msx2-knockout (KO) and wild-type (WT) mice. The sorted populations included HFSCs (CD34âºCD49fâºSca-1â») and interfollicular epidermal stem cells (EpdSCs; CD34â»CD49fâºSca-1âº) isolated from dorsal skin. RNA-seq was conducted to profile transcriptional changes resulting from Msx2 deficiency, with a focus on genes involved in adhesion, differentiation, extracellular matrix remodeling, and TGF-Î²/Wnt signaling. In parallel, ATAC-seq was used to map genome-wide chromatin accessibility and identify differentially accessible regulatory regions, including promoters and distal elements. Combined analysis of RNA-seq and ATAC-seq data enabled the classification of active and repressive regulatory regions. It provided mechanistic insights into the transcriptional control and epigenomic remodeling mediated by Msx2. This integrated approach allowed us to define the transcriptional programs and chromatin landscapes disrupted in the absence of Msx2, and to pinpoint key signaling nodes implicated in HFSC fate transitions and exogen control.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究利用Msx2基因敲除小鼠模型，结合转录组、表观基因组及功能实验，探究转录因子Msx2在毛囊外生期调控毛干脱落与再生的机制。结果显示，Msx2通过调节TGF-β与Wnt信号平衡，维持毛囊干细胞微环境完整性及隆突结构，协调毛囊再生中的细胞谱系进程。该研究揭示了Msx2在外生期调控中的关键作用，为理解毛囊周期转换机制提供了新见解。",
+    "AI_Summary": "本研究利用Msx2基因敲除小鼠模型，结合转录组、表观基因组及功能实验，探究转录因子Msx2在毛囊外生期调控毛干脱落与再生的机制。结果显示，Msx2通过调节TGF-β与Wnt信号平衡，维持毛囊干细胞微环境完整性及隆突结构，协调毛囊再生中的细胞谱系进程。该研究揭示了Msx2在外生期调控中的关键作用，为理解毛囊周期转换机制提供了新见解。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303778",
     "Submission_Date": "2026/06/10"
   },
@@ -134,8 +134,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "The exogen phase of the hair follicle cycle, during which club hairs are shed and new hairs emerge, represents a pivotal yet understudied transition marked by structural remodeling and cell fate changes. This study investigates the role of the transcription factor Msx2 in regulating hair anchoring, hair follicle stem cell (HFSC) lineage commitment, and extracellular matrix (ECM) remodeling during exogen. Using Msx2-knockout (KO) mice, we integrated transcriptomic, epigenomic, and functional assays to reveal Msx2 as a key regulator of exogen, critical for maintaining HFSC niche integrity, preserving bulge architecture, and coordinating lineage progression during hair regeneration. By modulating the balance between TGF-β and Wnt signaling pathways, Msx2 ensures proper HFSC activation and prevents premature epidermal differentiation and hair shedding. These findings provide mechanistic insights into the molecular control of hair cycling and highlight Msx2 dysfunction as a potential contributor to hair loss disorders, positioning it as a promising therapeutic target in regenerative dermatology.",
     "Overall_Design": "To elucidate the role of Msx2 in regulating hair follicle stem cell (HFSC) behavior and chromatin dynamics during the exogen phase of the hair cycle, we performed bulk RNA sequencing (RNA-seq) and assay for transposase-accessible chromatin using sequencing (ATAC-seq) on fluorescence-activated cell-sorted (FACS) epidermal stem cell populations from adult Msx2-knockout (KO) and wild-type (WT) mice. The sorted populations included HFSCs (CD34âºCD49fâºSca-1â») and interfollicular epidermal stem cells (EpdSCs; CD34â»CD49fâºSca-1âº) isolated from dorsal skin. RNA-seq was conducted to profile transcriptional changes resulting from Msx2 deficiency, with a focus on genes involved in adhesion, differentiation, extracellular matrix remodeling, and TGF-Î²/Wnt signaling. In parallel, ATAC-seq was used to map genome-wide chromatin accessibility and identify differentially accessible regulatory regions, including promoters and distal elements. Combined analysis of RNA-seq and ATAC-seq data enabled the classification of active and repressive regulatory regions. It provided mechanistic insights into the transcriptional control and epigenomic remodeling mediated by Msx2. This integrated approach allowed us to define the transcriptional programs and chromatin landscapes disrupted in the absence of Msx2, and to pinpoint key signaling nodes implicated in HFSC fate transitions and exogen control.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究利用Msx2基因敲除小鼠模型，结合bulk RNA-seq、表观基因组学及功能实验，探讨转录因子Msx2在毛囊外生期调控毛干脱落与再生的机制。发现Msx2通过维持干细胞微环境完整性、调节TGF-β与Wnt信号平衡，确保毛囊干细胞谱系定向及细胞外基质重塑，对理解毛囊周期转换具有重要价值。",
+    "AI_Summary": "本研究利用Msx2基因敲除小鼠模型，结合bulk RNA-seq、表观基因组学及功能实验，探讨转录因子Msx2在毛囊外生期调控毛干脱落与再生的机制。发现Msx2通过维持干细胞微环境完整性、调节TGF-β与Wnt信号平衡，确保毛囊干细胞谱系定向及细胞外基质重塑，对理解毛囊周期转换具有重要价值。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303779",
     "Submission_Date": "2026/06/10"
   },
@@ -154,8 +154,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "We report transcriptomes of cells from adult mouse skin in anagen phase of the hair growth cycle, comparing control tamoxifen induced Nfatc1-CreER;mTmG mice with mutant tamoxifen induced Nfatc1-CreER;mTmG;Fgf5-/- mice. Dead cells were removed from whole skin tissue using dead cell removal kit (MACS). Remaining live cells were analyzed.",
     "Overall_Design": "Examination of single cell heterogeneity in anagen skin betweenÂ Nfatc1-CreER;mTmG and Nfatc1-CreER;mTmG;Fgf5-/- mice.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究利用bulk RNA-seq技术，对成年小鼠生长期皮肤进行转录组分析，比较对照组（Nfatc1-CreER;mTmG）与Fgf5突变体（Nfatc1-CreER;mTmG;Fgf5-/-）的活细胞基因表达，旨在揭示Fgf5基因在毛发生长周期中的调控作用，为理解毛发周期机制提供数据支持。",
+    "AI_Summary": "本研究利用bulk RNA-seq技术，对成年小鼠生长期皮肤进行转录组分析，比较对照组（Nfatc1-CreER;mTmG）与Fgf5突变体（Nfatc1-CreER;mTmG;Fgf5-/-）的活细胞基因表达，旨在揭示Fgf5基因在毛发生长周期中的调控作用，为理解毛发周期机制提供数据支持。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144322",
     "Submission_Date": "2026/06/01"
   },
@@ -174,8 +174,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "The hair cycle, consisting of anagen, catagen, and telogen phases, is orchestrated by bulge-resident hair follicle stem cells (HFSCs). Although HFSCs remain quiescent throughout most of the cycle, they undergo robust proliferation and differentiation during early anagen to reconstitute the distinct layers of the hair follicle. In this study, we demonstrate that intradermal administration of activated HFSCs accelerates hair regrowth and upregulates hair growth-associated genes in depilated mouse skin, thereby establishing a molecular framework for HFSC-based regenerative strategies.",
     "Overall_Design": "RNA sequencing was performed on treated skin samples from the blank control, positive control, and experimental groups at 14 days post-treatment to assess gene expression changes.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究利用bulk RNA-seq技术，探究激活的毛囊干细胞（HFSCs）对小鼠毛发再生过程中基因表达的影响。结果显示，皮内注射激活的HFSCs可加速毛发再生，并上调毛发生长相关基因，为基于HFSCs的再生策略提供了分子基础。",
+    "AI_Summary": "本研究利用bulk RNA-seq技术，探究激活的毛囊干细胞（HFSCs）对小鼠毛发再生过程中基因表达的影响。结果显示，皮内注射激活的HFSCs可加速毛发再生，并上调毛发生长相关基因，为基于HFSCs的再生策略提供了分子基础。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325704",
     "Submission_Date": "2026/05/27"
   },
@@ -194,8 +194,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Chemotherapy-induced alopecia (CIA) is a frequent and distressing adverse effect of cytotoxic cancer therapy that significantly affects patients’ quality of life, yet its cellular mechanisms remain incompletely understood and effective pharmacological interventions are limited. Here, we combined single-cell RNA sequencing with in vivo mouse models and ex vivo human hair follicle organ culture to systematically characterize the cellular ecosystem underlying CIA. Our results demonstrate that CIA is not solely caused by apoptosis of rapidly proliferating epithelial cells but represents a coordinated multicompartmental dysfunction within the hair follicle niche. Cyclophosphamide treatment induces profound suppression of ribosomal biogenesis, cytoplasmic translation, mitochondrial oxidative phosphorylation, and Wnt-associated regenerative programs in hair matrix cells, indicating a functional metabolic arrest preceding overt epithelial cell loss. In parallel, dermal fibroblasts undergo inflammatory and stress-associated reprogramming accompanied by activation of IL-1, TNF, IL-6, and epithelial–mesenchymal transition signaling pathways. Chemotherapy also disrupts epithelial–mesenchymal communication through reduced expression of critical niche factors including FGF7, FGF10, and Slit2. Topical venlafaxine and its active metabolite desvenlafaxine preserved follicular architecture, suppressed apoptosis, and restored hair shaft elongation in both mouse CIA models and human hair follicle organ culture. At single-cell resolution, venlafaxine reversed epithelial translational shutdown, reactivated differentiation and Wnt signaling programs, and attenuated fibroinflammatory remodeling, thereby restoring paracrine niche signaling and matrix cell proliferation. Collectively, these findings redefine CIA as a disorder characterized by coordinated epithelial functional arrest and dermal inflammatory remodeling and identify venlafaxine as a potential pharmacological strategy to mitigate chemotherapy-associated hair loss.",
     "Overall_Design": "Skin samples were collected from vehicle-treated C57BL/6 mice (Cont; Negative Control), CIA model mice, and CIA model mice treated with venlafaxine (CIA+VFX).",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "该研究利用单细胞RNA测序、小鼠模型及人毛囊器官培养，探究化疗诱导脱发（CIA）的细胞机制。发现CIA并非仅由上皮细胞凋亡引起，而是毛囊微环境多区室功能障碍，环磷酰胺抑制核糖体合成、翻译及线粒体氧化磷酸化。研究为开发靶向治疗提供新思路。",
+    "AI_Summary": "该研究利用单细胞RNA测序、小鼠模型及人毛囊器官培养，探究化疗诱导脱发（CIA）的细胞机制。发现CIA并非仅由上皮细胞凋亡引起，而是毛囊微环境多区室功能障碍，环磷酰胺抑制核糖体合成、翻译及线粒体氧化磷酸化。研究为开发靶向治疗提供新思路。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330568",
     "Submission_Date": "2026/05/27"
   },
@@ -214,8 +214,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Skin scarring impairs function and aesthetics. Current therapies show limited efficacy and cause iatrogenic dermal disruption (e.g., triamcinolone acetonide, a first-line corticosteroid for keloids), with topical medications demonstrating inferior outcomes. Through transcriptome-guided evaluation, we develop FR-1 (fibrosis-reversal compound 1), a small molecule that reverses fibrosis in vitro by inhibiting fibroblast proliferation, suppressing α-SMA, and remodeling the ECM via collagen downregulation and MMP1 induction. In a murine linear excisional wound model, daily topical FR-1 application progressively reduces scar area. Notably, unlike triamcinolone acetonide, FR-1 avoids skin atrophy and hair follicle damage. Comprehensive safety evaluations, druggability and skin permeation assessments, and studies utilizing patient-derived keloid ex vivo explants and in vivo xenografts demonstrate its translational potential. Mechanistically, FR-1 induces mitochondrial uncoupling, lowering ATP levels in profibrotic myofibroblasts. Other uncouplers similarly attenuate fibrosis. This work identifies a topical small molecule that attenuates scarring, highlighting the therapeutic potential of mitochondrial uncouplers in resolving fibrosis.",
     "Overall_Design": "Keloid fibroblasts were treated with various small molecules in KF medium  (10% FBS DMEM, 2% penicillin-streptomycin, 1% ITS, and 20 ng/ml bFGF) for 2 days and analyzed using  DRUG-seq2 or bulk RNA-seq.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "本研究通过转录组引导，开发了一种小分子纤维化逆转化合物FR-1。利用bulk RNA-seq技术评估其作用机制，发现FR-1能抑制成纤维细胞增殖、下调α-SMA、通过降低胶原蛋白和诱导MMP1重塑细胞外基质。在小鼠线性切除伤口模型中，局部应用FR-1可逐步减少疤痕面积，且避免皮肤萎缩和毛囊损伤，优于传统皮质类固醇治疗，为疤痕治疗提供了新策略。",
+    "AI_Summary": "本研究通过转录组引导，开发了一种小分子纤维化逆转化合物FR-1。利用bulk RNA-seq技术评估其作用机制，发现FR-1能抑制成纤维细胞增殖、下调α-SMA、通过降低胶原蛋白和诱导MMP1重塑细胞外基质。在小鼠线性切除伤口模型中，局部应用FR-1可逐步减少疤痕面积，且避免皮肤萎缩和毛囊损伤，优于传统皮质类固醇治疗，为疤痕治疗提供了新策略。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303486",
     "Submission_Date": "2026/05/18"
   },
@@ -234,8 +234,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Skin scarring impairs function and aesthetics. Current therapies show limited efficacy and cause iatrogenic dermal disruption (e.g., triamcinolone acetonide, a first-line corticosteroid for keloids), with topical medications demonstrating inferior outcomes. Through transcriptome-guided evaluation, we develop FR-1 (fibrosis-reversal compound 1), a small molecule that reverses fibrosis in vitro by inhibiting fibroblast proliferation, suppressing α-SMA, and remodeling the ECM via collagen downregulation and MMP1 induction. In a murine linear excisional wound model, daily topical FR-1 application progressively reduces scar area. Notably, unlike triamcinolone acetonide, FR-1 avoids skin atrophy and hair follicle damage. Comprehensive safety evaluations, druggability and skin permeation assessments, and studies utilizing patient-derived keloid ex vivo explants and in vivo xenografts demonstrate its translational potential. Mechanistically, FR-1 induces mitochondrial uncoupling, lowering ATP levels in profibrotic myofibroblasts. Other uncouplers similarly attenuate fibrosis. This work identifies a topical small molecule that attenuates scarring, highlighting the therapeutic potential of mitochondrial uncouplers in resolving fibrosis.",
     "Overall_Design": "Keloid fibroblasts were treated with various small molecules in KF medium  (10% FBS DMEM, 2% penicillin-streptomycin, 1% ITS, and 20 ng/ml bFGF) for 2 days and analyzed using  DRUG-seq2 or bulk RNA-seq",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "该研究通过转录组指导开发了一种小分子化合物FR-1，旨在逆转皮肤纤维化并减少瘢痕。利用bulk RNA-seq技术评估其机制，发现FR-1能抑制成纤维细胞增殖、下调α-SMA、重塑细胞外基质。在小鼠线性伤口模型中，局部应用FR-1显著减少瘢痕面积，且避免了三胺丙酮引起的皮肤萎缩和毛囊损伤，展现出良好的安全性和透皮性。",
+    "AI_Summary": "该研究通过转录组指导开发了一种小分子化合物FR-1，旨在逆转皮肤纤维化并减少瘢痕。利用bulk RNA-seq技术评估其机制，发现FR-1能抑制成纤维细胞增殖、下调α-SMA、重塑细胞外基质。在小鼠线性伤口模型中，局部应用FR-1显著减少瘢痕面积，且避免了三胺丙酮引起的皮肤萎缩和毛囊损伤，展现出良好的安全性和透皮性。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303487",
     "Submission_Date": "2026/05/18"
   },
@@ -354,8 +354,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "We employed single-cell RNA sequencing (scRNA-seq) using 10x Genomics technology to investigate the impact of Supt6 epidermis-specific knockout on epidermal homeostasis in mice. The histone chaperone SPT6 is a central regulator of genomic stability. Our previous studies have shown that SPT6 promotes epidermal differentiation by regulating transcriptional elongation in human epidermal stem/progenitor cells, but its in vivo role remains unclear. Our research has discovered for the first time that the transcriptional elongation factor SPT6 regulates skin inflammation, hair follicle development, and wound healing, providing a novel therapeutic target for clinical treatment of psoriasis and related skin disorders.",
     "Overall_Design": "single cell RNA-seq of wild-type mice and Supt6 KO mice epidermis, collected on the 5th day after the final tamoxifen injection.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "该研究利用10x Genomics单细胞RNA测序技术，探究转录延伸因子SPT6在小鼠表皮特异性敲除后对表皮稳态的影响。研究发现SPT6调控皮肤炎症、毛囊发育及伤口愈合，首次揭示其在维持表皮稳态和抑制皮肤炎症中的关键作用，为银屑病等皮肤疾病的临床治疗提供了新靶点。",
+    "AI_Summary": "该研究利用10x Genomics单细胞RNA测序技术，探究转录延伸因子SPT6在小鼠表皮特异性敲除后对表皮稳态的影响。研究发现SPT6调控皮肤炎症、毛囊发育及伤口愈合，首次揭示其在维持表皮稳态和抑制皮肤炎症中的关键作用，为银屑病等皮肤疾病的临床治疗提供了新靶点。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294435",
     "Submission_Date": "2026/03/26"
   },
@@ -514,8 +514,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Loss of Zfp750 in juctional zone of hair follicle of the mice skin increased the inflammatory gene expression.",
     "Overall_Design": "Skin cells from control and Zfp750 knockout mice expressing tdTomato were sorted.",
-    "AI_Summary_CN": "",
-    "AI_Summary": "",
+    "AI_Summary_CN": "该研究利用bulk RNA-seq技术，探究小鼠毛囊交界区及皮脂腺中ZNF750基因缺失对皮肤炎症的影响。结果显示，Zfp750缺失显著上调炎症基因表达，导致类似脂溢性皮炎的严重银屑病样皮炎，揭示了ZNF750在维持皮肤免疫稳态中的关键作用。",
+    "AI_Summary": "该研究利用bulk RNA-seq技术，探究小鼠毛囊交界区及皮脂腺中ZNF750基因缺失对皮肤炎症的影响。结果显示，Zfp750缺失显著上调炎症基因表达，导致类似脂溢性皮炎的严重银屑病样皮炎，揭示了ZNF750在维持皮肤免疫稳态中的关键作用。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316225",
     "Submission_Date": "2026/02/16"
   },
@@ -5894,10 +5894,10 @@
     "Supplementary_Size": "1.8 MB",
     "Summary": "RNA was isolated from fluorescence activated cell sorted (FACS) CD49f+/CD34+/GFP- hair follicle stem cells after hair follicle keratinocyte isolation from the skin of age matched saline or diphtheria toxin (DT) treated Lgr5-DTReGFP mice. The \"SAMPLE_ID\" sample characteristic is a sample identifier internal to Genentech. The ID of this project in Genentech's ExpressionPlot database is PRJ0009986",
     "Overall_Design": "Gene expression profiling of CD49f+/CD34+/GFP- hair follicle stem cells from saline or DT treated Lgr5-DTReGFP mice",
-    "AI_Summary_CN": "",
+    "AI_Summary_CN": "本研究利用bulk RNA-seq技术，对经荧光激活细胞分选（FACS）获得的CD49f+/CD34+/GFP-毛囊干细胞进行转录组分析。样本来自年龄匹配的Lgr5-DTReGFP小鼠，分别经生理盐水或白喉毒素处理。旨在揭示毛囊干细胞的基因表达特征，为理解其生物学功能及调控机制提供数据基础。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE86962",
     "Submission_Date": "2017/05/29",
-    "AI_Summary": ""
+    "AI_Summary": "本研究利用bulk RNA-seq技术，对经荧光激活细胞分选（FACS）获得的CD49f+/CD34+/GFP-毛囊干细胞进行转录组分析。样本来自年龄匹配的Lgr5-DTReGFP小鼠，分别经生理盐水或白喉毒素处理。旨在揭示毛囊干细胞的基因表达特征，为理解其生物学功能及调控机制提供数据基础。"
   },
   {
     "Accession": "GSE76102",
@@ -6234,10 +6234,10 @@
     "Supplementary_Size": "68.8 MB",
     "Summary": "Epithelial to mesenchymal transition (EMT) in cancer cells has been associated with metastasis, stemness and resistance to therapy. The reason why some tumors undergo EMT and other not might reflect intrinsic properties of their cell of origin, although this possibility is largely unexplored. By targeting the same oncogenic mutations to discrete skin compartments, we show cell type-specific chromatin and transcriptional states differentially prime tumors to EMT. Squamous cell carcinomas (SCCs) derived from intrafollicular epidermis (IFE) are generally well-differentiated, while hair follicle (HF) stem cell-derived SCCs frequently exhibit EMT, efficiently form secondary tumors, and possess increased metastatic potential. Transcriptional and epigenomic profiling revealed IFE and HF tumor-initiating cells possess distinct chromatin landscapes and gene regulatory networks associated with tumorigenesis and EMT that correlate with accessibility of key epithelial and EMT transcription factor binding sites. These findings highlight the importance of chromatin states and transcriptional priming in dictating tumor phenotypes and EMT.",
     "Overall_Design": "Refer to individual Series",
-    "AI_Summary_CN": "",
+    "AI_Summary_CN": "本研究利用bulk RNA-seq技术，探究不同细胞类型染色质状态如何差异性地启动鳞状细胞癌肿瘤起始细胞的上皮-间充质转化（EMT）。通过将相同致癌突变靶向皮肤不同区域，发现毛囊干细胞来源的鳞癌更易发生EMT、形成继发肿瘤并具高转移潜能，而毛囊间表皮来源的则分化良好。转录组和表观基因组分析揭示了细胞起源对肿瘤行为的决定性影响。",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71621",
     "Submission_Date": "2015/10/01",
-    "AI_Summary": ""
+    "AI_Summary": "本研究利用bulk RNA-seq技术，探究不同细胞类型染色质状态如何差异性地启动鳞状细胞癌肿瘤起始细胞的上皮-间充质转化（EMT）。通过将相同致癌突变靶向皮肤不同区域，发现毛囊干细胞来源的鳞癌更易发生EMT、形成继发肿瘤并具高转移潜能，而毛囊间表皮来源的则分化良好。转录组和表观基因组分析揭示了细胞起源对肿瘤行为的决定性影响。"
   },
   {
     "Accession": "GSE68846",
