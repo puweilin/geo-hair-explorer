@@ -1,0 +1,991 @@
+[
+  {
+    "Accession": "GSE280028",
+    "Title": "Developing a differentiation-inducing therapeutic strategy for sarcomatoid renal cell carcinoma",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -6,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia",
+      "androgenetic_alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "drug_indication"
+    ],
+    "Off_Topic_Signals": [
+      "renal"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE280028"
+  },
+  {
+    "Accession": "GSE303486",
+    "Title": "Transcriptome-guided development of a fibrosis-reversal compound reduces skin scarring and allows regeneration via mitochondrial uncoupling [DRUG-seq2]",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "outcome_only"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303486"
+  },
+  {
+    "Accession": "GSE303487",
+    "Title": "Transcriptome-guided development of a fibrosis-reversal compound reduces skin scarring and allows regeneration via mitochondrial uncoupling [RNA-seq]",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "outcome_only"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303487"
+  },
+  {
+    "Accession": "GSE324041",
+    "Title": "HTRA1 Mutation and Expression Regulation in Cerebral Small Vessel Disease",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -11,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [
+      "blood_only",
+      "cerebrovascular"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE324041"
+  },
+  {
+    "Accession": "GSE314399",
+    "Title": "The human Flower isoform hFWE4 facilitates cornification in cutaneous squamous cell carcinoma",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "tumor_origin_background"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314399"
+  },
+  {
+    "Accession": "GSE305111",
+    "Title": "Rete ridges form via evolutionarily distinct mechanisms in mammalian skin",
+    "Automated_Decision": "review",
+    "Automated_Score": 3,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "主要研究 rete ridge，其摘要明确说明该结构独立于毛囊和汗腺形成。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305111"
+  },
+  {
+    "Accession": "GSE283674",
+    "Title": "Folate receptor β performs a checkpoint function in activated macrophages",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283674"
+  },
+  {
+    "Accession": "GSE216398",
+    "Title": "miR-29 is an important driver of aging-related phenotypes",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -7,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [
+      "hepatic"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216398"
+  },
+  {
+    "Accession": "GSE308812",
+    "Title": "Single-cell gene expression analysis of ulcerated skin in Has2 transgenic and wild-type mice with scratching-induced ulcerative derm",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_loss"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308812"
+  },
+  {
+    "Accession": "GSE225460",
+    "Title": "The Role of Interferon-γ in Autoimmune Polyendocrine Syndrome Type 1",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -7,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "outcome_only"
+    ],
+    "Off_Topic_Signals": [
+      "systemic_autoimmune"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225460"
+  },
+  {
+    "Accession": "GSE274498",
+    "Title": "snRNA-seq of murine tarsal plates",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -7,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "sample_contamination"
+    ],
+    "Off_Topic_Signals": [
+      "meibomian"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274498"
+  },
+  {
+    "Accession": "GSE250294",
+    "Title": "Low fucosylation defines the glycocalyx of progenitor cells and melanocytes in the limbal epithelial stem cell niche",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -7,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "sample_contamination"
+    ],
+    "Off_Topic_Signals": [
+      "ocular"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250294"
+  },
+  {
+    "Accession": "GSE241061",
+    "Title": "The IL-33/ST2 axis and tissue Treg maintains epithelial homeostasis in the skin and restrains cancer development",
+    "Automated_Decision": "review",
+    "Automated_Score": 1,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "组学对象是 DMBA 皮肤癌模型的全皮肤；毛囊仅作为 Treg 空间定位背景。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241061"
+  },
+  {
+    "Accession": "GSE255708",
+    "Title": "Finasteride delays atherosclerosis progression in mice and is associated with a reduction in plasma cholesterol in men",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -11,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "balding"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "drug_indication"
+    ],
+    "Off_Topic_Signals": [
+      "cardiovascular",
+      "hepatic"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255708"
+  },
+  {
+    "Accession": "GSE254347",
+    "Title": "Antiviral drugs prolong survival in murine recessive dystrophic epidermolysis bullosa",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_loss"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "outcome_only"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254347"
+  },
+  {
+    "Accession": "GSE243572",
+    "Title": "Differential T-cell and monocyte responses in hepatocellular carcinoma treated with regorafenib plus nivolumab: an integrated clinical and biomarker analysis of the phase 2 RENOBATE trial",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -11,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "adverse_event"
+    ],
+    "Off_Topic_Signals": [
+      "blood_only",
+      "hepatic"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243572"
+  },
+  {
+    "Accession": "GSE242128",
+    "Title": "MCPIP1 controls effects of myeloid cells on skin carcinogenesis and hair growth",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 0,
+    "Automated_Reason": "标题虽提及毛发/脱发，但实验设计明确指向无关组织或疾病",
+    "Final_Decision": "exclude",
+    "Final_Reason": "该 GEO 系列的 RNA-seq 对象是化学诱导的皮肤癌病灶和邻近皮肤；毛发生长只出现在总研究标题，当前组学实验未研究毛囊。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [
+      "hair_growth"
+    ],
+    "Summary_Terms": [],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "skin_carcinogenesis"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242128"
+  },
+  {
+    "Accession": "GSE220977",
+    "Title": "Sweat gland development requires an eccrine dermal niche and couples two epidermal programs",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -7,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "主要对象是小汗腺发育及其 dermal niche；毛囊仅用于说明一个共享的表皮转录程序。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "comparison_only"
+    ],
+    "Off_Topic_Signals": [
+      "other_skin_appendage"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE220977"
+  },
+  {
+    "Accession": "GSE229111",
+    "Title": "Skin-type-dependent development of murine mechanosensory neurons",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "组学对象是感觉神经元/触觉亚型，毛囊仅作为神经支配的解剖背景",
+    "Final_Decision": "exclude",
+    "Final_Reason": "Smart-seq 对象是支配有毛/无毛皮肤的机械感觉神经元，科学问题是触觉末梢发育；毛囊仅为神经末梢的解剖靶点。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "sensory_neuron"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229111"
+  },
+  {
+    "Accession": "GSE220948",
+    "Title": "Vitamin D inhibition of metastasis and oxidative stress in osteosarcoma",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 0,
+    "Automated_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle",
+      "hair_follicle_stem_cell"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "bone_tumor"
+    ],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE220948"
+  },
+  {
+    "Accession": "GSE226232",
+    "Title": "TNF-α-Activated Adipose–Derived Stem Cells Improve the Angiogenesis of Full-Thickness Skin Grafts Through the TNF-α/NF-κB Signaling Pathway",
+    "Automated_Decision": "review",
+    "Automated_Score": 3,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "RNA-seq 对象为 TNF-α 激活的脂肪来源干细胞；毛囊仅列为皮肤移植物需维持的结构。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226232"
+  },
+  {
+    "Accession": "GSE202086",
+    "Title": "IRX5 promotes DNA damage repair and activation of hair follicle stem cells [NHEK RNA-Seq]",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 14,
+    "Automated_Reason": "标题虽提及毛发/脱发，但实验设计明确指向无关组织或疾病",
+    "Final_Decision": "exclude",
+    "Final_Reason": "该子系列与 GSE202075 使用相同的新生儿包皮 NHEK IRX siRNA RNA-seq 设计；HFSC 研究属于同一 SuperSeries 的其他子系列，当前 accession 不提供毛囊组学样本。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [
+      "hair_follicle",
+      "hair_follicle_stem_cell"
+    ],
+    "Summary_Terms": [
+      "hair_follicle_stem_cell",
+      "hair_cycle_stage",
+      "hair_cycle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [
+      "hair_follicle_stem_cell"
+    ],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "non_hair_epidermal_culture"
+    ],
+    "Relevant_Summary_Sentences": 4,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202086"
+  },
+  {
+    "Accession": "GSE202075",
+    "Title": "IRX5 promotes DNA damage repair and activation of hair follicle stem cells [nhek_d]",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 14,
+    "Automated_Reason": "标题虽提及毛发/脱发，但实验设计明确指向无关组织或疾病",
+    "Final_Decision": "exclude",
+    "Final_Reason": "该子系列实际 RNA-seq 样本为新生儿包皮 NHEK 的 IRX siRNA 实验；HFSC 研究属于同一 SuperSeries 的其他子系列，当前 accession 不提供毛囊组学样本。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [
+      "hair_follicle",
+      "hair_follicle_stem_cell"
+    ],
+    "Summary_Terms": [
+      "hair_follicle_stem_cell",
+      "hair_cycle_stage",
+      "hair_cycle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [
+      "hair_follicle_stem_cell"
+    ],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "non_hair_epidermal_culture"
+    ],
+    "Relevant_Summary_Sentences": 4,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202075"
+  },
+  {
+    "Accession": "GSE183831",
+    "Title": "mRNA sequencing of skins isolated from B6;129S4-Npytm2Rpa/J homozygous mice and wildtype litter mates reveals transcriptomic changes indicative of skin inflammation associated with Npy overexpression.",
+    "Automated_Decision": "review",
+    "Automated_Score": 4,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "当前全皮肤 RNA-seq 专门研究 NPY 过表达导致的非黑素细胞炎症病理；毛发变灰是既往模型表型背景。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": true,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle",
+      "hair_pigmentation"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183831"
+  },
+  {
+    "Accession": "GSE196265",
+    "Title": "Expanded CUG repeat RNA alters gene expression profiles in myotonic dystrophy model cells",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -7,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "balding"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [
+      "muscle"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196265"
+  },
+  {
+    "Accession": "GSE197358",
+    "Title": "Bead-Jet printing of high-density mesenchymal stem cell-laden Matrigel beads augments skeletal muscle and hair follicle regeneration",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 0,
+    "Automated_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "SuperSeries 的两个组学子系列分别分析水凝胶中的 MSC 和受损骨骼肌；没有毛囊或毛发再生组学子系列。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [
+      "hair_follicle"
+    ],
+    "Summary_Terms": [],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "muscle"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197358"
+  },
+  {
+    "Accession": "GSE197356",
+    "Title": "Bead-Jet printing of high-density mesenchymal stem cell-laden Matrigel beads augments skeletal muscle and hair follicle regeneration [skeletal muscle]",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 0,
+    "Automated_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [
+      "hair_follicle"
+    ],
+    "Summary_Terms": [],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "muscle"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197356"
+  },
+  {
+    "Accession": "GSE197355",
+    "Title": "Bead-Jet printing of high-density mesenchymal stem cell-laden Matrigel beads augments skeletal muscle and hair follicle regeneration [MSC]",
+    "Automated_Decision": "exclude",
+    "Automated_Score": 0,
+    "Automated_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "研究对象明确属于其他器官/疾病，未发现毛囊相关样本证据",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [
+      "hair_follicle"
+    ],
+    "Summary_Terms": [],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "muscle"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197355"
+  },
+  {
+    "Accession": "GSE124121",
+    "Title": "RNA-seq of human lens with cataracts, alopecia, & microdontia",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "标题虽提及毛发/脱发，但实验设计明确指向无关组织或疾病",
+    "Final_Decision": "exclude",
+    "Final_Reason": "标题虽提及毛发/脱发，但实验设计明确指向无关组织或疾病",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [
+      "alopecia"
+    ],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [
+      "ocular"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124121"
+  },
+  {
+    "Accession": "GSE164024",
+    "Title": "Epidermal PPARγ is a key homeostatic regulator of cutaneous inflammation and barrier function in mouse skin",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "主要问题是表皮 PPARγ 对炎症、屏障和皮脂腺稳态的调控；alopecia 是多个敲除表型之一。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "clinical_manifestation"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164024"
+  },
+  {
+    "Accession": "GSE171662",
+    "Title": "Lgr6 marks epidermal stem cells with a nerve-dependent role in wound re- epithelialization",
+    "Automated_Decision": "review",
+    "Automated_Score": 4,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "组学对象是 Lgr6 表皮干细胞及其神经依赖的创伤修复；毛囊干细胞仅作为失神经后的代偿群体被提及。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": true,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle",
+      "hair_follicle_stem_cell"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171662"
+  },
+  {
+    "Accession": "GSE161387",
+    "Title": "High proliferation and delamination during skin epidermal stratification",
+    "Automated_Decision": "review",
+    "Automated_Score": 3,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "主要研究表皮分层，毛囊停滞只是突变表型之一，组学样本并非毛囊细胞。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161387"
+  },
+  {
+    "Accession": "GSE139272",
+    "Title": "Genotoxicity induces epithelial hyperplasia and lineage infidelity via fibroblast IL-1β",
+    "Automated_Decision": "review",
+    "Automated_Score": 3,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "RNA-seq 对象为顺铂处理的真皮成纤维细胞，主要研究基因毒性后的上皮异常；毛囊只是受影响的多个上皮区室之一。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": true,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139272"
+  },
+  {
+    "Accession": "GSE150701",
+    "Title": "Specific ectodermal enhancers control the expression of Hoxc genes in developing mammalian teguments [RNA-seq]",
+    "Automated_Decision": "review",
+    "Automated_Score": 1,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "RNA-seq 取自胚胎远端肢芽外胚层/中胚层，主要解析甲/爪相关 HoxC 调控；脱发是全身遗传表型而非当前组学对象。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": true,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "alopecia"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150701"
+  },
+  {
+    "Accession": "GSE132129",
+    "Title": "Low-dose quercetin positively regulates mouse healthspan",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Final_Decision": "exclude",
+    "Final_Reason": "毛发/脱发仅作为药物适应证、不良事件、临床表现或次要结局出现",
+    "Decision_Source": "automated_rule",
+    "Manual_Review": false,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_loss"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [
+      "outcome_only"
+    ],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132129"
+  },
+  {
+    "Accession": "GSE104022",
+    "Title": "Molecular consequences of Dlx3 deletion by tamoxifen inducible K14 Cre in adult mouse epidermis (P42-P46) as determined by RNASeq analysis",
+    "Automated_Decision": "review",
+    "Automated_Score": 1,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "当前表皮/真皮 RNA-seq 研究 Dlx3 缺失后的 IL17 炎症起始机制；毛囊分化是背景知识。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": true,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104022"
+  },
+  {
+    "Accession": "GSE80082",
+    "Title": "Integrin signaling regulates YAP/TAZ to control skin homeostasis",
+    "Automated_Decision": "review",
+    "Automated_Score": 3,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "RNA-seq 使用 A431 和 HaCAT 细胞研究 YAP/TAZ；毛发脱落仅为小鼠敲除表型。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_loss"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 1,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80082"
+  },
+  {
+    "Accession": "GSE77135",
+    "Title": "Strong Components of Epigenetic Memory in Cultured Human Fibroblasts Related to Site of Origin and Donor Age (Methylation)",
+    "Automated_Decision": "review",
+    "Automated_Score": 15,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "样本虽来自 scalp 成纤维细胞，但问题是取材部位的表观遗传记忆，不涉及毛囊或脱发。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "scalp"
+    ],
+    "Overall_Design_Terms": [
+      "scalp"
+    ],
+    "Summary_Sample_Terms": [
+      "scalp"
+    ],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 2,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77135"
+  },
+  {
+    "Accession": "GSE77131",
+    "Title": "Strong Components of Epigenetic Memory in Cultured Human Fibroblasts Related to Site of Origin and Donor Age (RNA-Seq)",
+    "Automated_Decision": "review",
+    "Automated_Score": 15,
+    "Automated_Reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+    "Final_Decision": "exclude",
+    "Final_Reason": "样本虽来自 scalp 成纤维细胞，但问题是取材部位的转录记忆，不涉及毛囊或脱发。",
+    "Decision_Source": "manual_boundary_review",
+    "Manual_Review": true,
+    "Evidence_Adjudication": false,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "scalp"
+    ],
+    "Overall_Design_Terms": [
+      "scalp"
+    ],
+    "Summary_Sample_Terms": [
+      "scalp"
+    ],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [],
+    "Relevant_Summary_Sentences": 2,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77131"
+  },
+  {
+    "Accession": "GSE64091",
+    "Title": "Transcriptional profiling of cutaneous Mrgprd free nerve endings and C-LTMRs",
+    "Automated_Decision": "exclude",
+    "Automated_Score": -3,
+    "Automated_Reason": "组学对象是感觉神经元/触觉亚型，毛囊仅作为神经支配的解剖背景",
+    "Final_Decision": "exclude",
+    "Final_Reason": "RNA-seq 对象为感觉神经元触觉亚型，科学问题是痛觉与愉悦触觉；毛囊仅用于描述 C-LTMR 的支配位置。",
+    "Decision_Source": "evidence_adjudication",
+    "Manual_Review": false,
+    "Evidence_Adjudication": true,
+    "Title_Terms": [],
+    "Summary_Terms": [
+      "hair_follicle"
+    ],
+    "Overall_Design_Terms": [],
+    "Summary_Sample_Terms": [],
+    "Incidental_Signals": [],
+    "Off_Topic_Signals": [
+      "sensory_neuron"
+    ],
+    "Relevant_Summary_Sentences": 0,
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64091"
+  }
+]

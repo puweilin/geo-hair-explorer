@@ -51,7 +51,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
           # 检查是否有变化
-          if git diff --quiet data/geo_data.json; then
+          if [[ -z "$(git status --porcelain -- data/geo_data.json data/relevance_review_queue.json data/relevance_decision_log.json)" ]]; then
             echo "No changes to commit"
             exit 0
           fi
@@ -71,7 +71,7 @@ jobs:
             git stash pop || true
 
             # 提交更改
-            git add data/geo_data.json
+            git add -A -- data/geo_data.json data/relevance_review_queue.json data/relevance_decision_log.json
             git commit -m "Auto-update data $(date +%Y-%m-%d)" || true
 
             # 推送

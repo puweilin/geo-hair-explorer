@@ -1,0 +1,86 @@
+{
+  "reviewed_on": "2026-07-29",
+  "scope": "仅当毛囊、毛周期、毛发疾病或相关细胞/样本构成主要研究问题或可复用的组学对象时纳入；仅为解剖背景、次要表型、标题层面的总研究主题，或其他子系列的研究内容时排除。",
+  "source": "对 DeepSeek V4-Pro 与现有参考标签的 17 条分歧逐条核对，并对已确认错误的同类 SubSeries 做规则回归检查；依据 GEO Title、Summary、Overall Design 及 Series/SubSeries 关系裁决。",
+  "label_corrections": [
+    "GSE242128",
+    "GSE229111",
+    "GSE202075",
+    "GSE202086",
+    "GSE64091"
+  ],
+  "decisions": {
+    "GSE274955": {
+      "decision": "include",
+      "reason": "人皮肤单细胞图谱明确分析 hair follicle 细胞更新，属于可复用的毛囊细胞群数据。"
+    },
+    "GSE243634": {
+      "decision": "include",
+      "reason": "转录组样本直接来自毛囊来源角质形成细胞；虽然疾病问题是特应性皮炎，样本仍是明确的毛囊来源细胞。"
+    },
+    "GSE254889": {
+      "decision": "include",
+      "reason": "研究直接检验上段毛囊对皮肤屏障的调控，毛囊是核心生物学对象而非偶然提及。"
+    },
+    "GSE242128": {
+      "decision": "exclude",
+      "reason": "该 GEO 系列的 RNA-seq 对象是化学诱导的皮肤癌病灶和邻近皮肤；毛发生长只出现在总研究标题，当前组学实验未研究毛囊。"
+    },
+    "GSE220977": {
+      "decision": "exclude",
+      "reason": "主要对象是小汗腺发育及其 dermal niche；毛囊仅用于说明一个共享的表皮转录程序。"
+    },
+    "GSE229111": {
+      "decision": "exclude",
+      "reason": "Smart-seq 对象是支配有毛/无毛皮肤的机械感觉神经元，科学问题是触觉末梢发育；毛囊仅为神经末梢的解剖靶点。"
+    },
+    "GSE94235": {
+      "decision": "include",
+      "reason": "斑秃治疗是明确的主要疾病问题，实验用 CD8 T 细胞比较 JAK 抑制剂的疾病相关免疫机制，符合脱发疾病组学范围。"
+    },
+    "GSE202075": {
+      "decision": "exclude",
+      "reason": "该子系列实际 RNA-seq 样本为新生儿包皮 NHEK 的 IRX siRNA 实验；HFSC 研究属于同一 SuperSeries 的其他子系列，当前 accession 不提供毛囊组学样本。"
+    },
+    "GSE202086": {
+      "decision": "exclude",
+      "reason": "该子系列与 GSE202075 使用相同的新生儿包皮 NHEK IRX siRNA RNA-seq 设计；HFSC 研究属于同一 SuperSeries 的其他子系列，当前 accession 不提供毛囊组学样本。"
+    },
+    "GSE183831": {
+      "decision": "exclude",
+      "reason": "当前全皮肤 RNA-seq 专门研究 NPY 过表达导致的非黑素细胞炎症病理；毛发变灰是既往模型表型背景。"
+    },
+    "GSE197358": {
+      "decision": "exclude",
+      "reason": "SuperSeries 的两个组学子系列分别分析水凝胶中的 MSC 和受损骨骼肌；没有毛囊或毛发再生组学子系列。"
+    },
+    "GSE175990": {
+      "decision": "include",
+      "reason": "化脓性汗腺炎是毛囊单位相关的炎症性疾病，病灶皮肤单细胞数据可用于研究毛囊单位病理。"
+    },
+    "GSE164024": {
+      "decision": "exclude",
+      "reason": "主要问题是表皮 PPARγ 对炎症、屏障和皮脂腺稳态的调控；alopecia 是多个敲除表型之一。"
+    },
+    "GSE171662": {
+      "decision": "exclude",
+      "reason": "组学对象是 Lgr6 表皮干细胞及其神经依赖的创伤修复；毛囊干细胞仅作为失神经后的代偿群体被提及。"
+    },
+    "GSE139272": {
+      "decision": "exclude",
+      "reason": "RNA-seq 对象为顺铂处理的真皮成纤维细胞，主要研究基因毒性后的上皮异常；毛囊只是受影响的多个上皮区室之一。"
+    },
+    "GSE150701": {
+      "decision": "exclude",
+      "reason": "RNA-seq 取自胚胎远端肢芽外胚层/中胚层，主要解析甲/爪相关 HoxC 调控；脱发是全身遗传表型而非当前组学对象。"
+    },
+    "GSE104022": {
+      "decision": "exclude",
+      "reason": "当前表皮/真皮 RNA-seq 研究 Dlx3 缺失后的 IL17 炎症起始机制；毛囊分化是背景知识。"
+    },
+    "GSE64091": {
+      "decision": "exclude",
+      "reason": "RNA-seq 对象为感觉神经元触觉亚型，科学问题是痛觉与愉悦触觉；毛囊仅用于描述 C-LTMR 的支配位置。"
+    }
+  }
+}
