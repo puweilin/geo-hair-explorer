@@ -15,7 +15,9 @@ from Bio import Entrez
 # 配置
 NCBI_EMAIL = os.environ.get('NCBI_EMAIL', '')
 NCBI_API_KEY = os.environ.get('NCBI_API_KEY', '')
-MINIMAX_API_KEY = os.environ.get('MINIMAX_API_KEY', '')
+DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
+DEEPSEEK_BASE_URL = os.environ.get('DEEPSEEK_BASE_URL', 'https://api.deepseek.com').rstrip('/')
+DEEPSEEK_MODEL = os.environ.get('DEEPSEEK_MODEL', 'deepseek-v4-flash')
 
 # Hair Follicle / AGA 搜索配置
 SEARCH_CONFIG = {
@@ -147,9 +149,10 @@ def clean_pubmed_ids(pubmed_str):
     return str(pubmed_str)
 
 
-def generate_ai_summary(title, summary, data_type):
-    """生成 AI 摘要"""
-    if not MINIMAX_API_KEY:
+def generate_ai_summary(title, summary, data_type, max_retries=3):
+    """使用 DeepSeek 生成 AI 摘要。"""
+    if not DEEPSEEK_API_KEY:
+        print("    跳过 AI 摘要：未设置 DEEPSEEK_API_KEY")
         return ""
 
     prompt = f"""请用中文为以下GEO数据集生成一个精炼的科研摘要（80-120字）：
@@ -166,29 +169,86 @@ def generate_ai_summary(title, summary, data_type):
 
 请直接输出中文摘要："""
 
-    try:
-        response = requests.post(
-            'https://api.minimaxi.com/v1/chat/completions',
-            headers={
-                "Authorization": f'Bearer {MINIMAX_API_KEY}',
-                "Content-Type": "application/json"
-            },
-            json={
-                "model": "MiniMax-M2.1",
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 1500,
-                "temperature": 0.7
-            },
-            timeout=60
-        )
-        if response.status_code == 200:
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(
+                f'{DEEPSEEK_BASE_URL}/chat/completions',
+                headers={
+                    "Authorization": f'Bearer {DEEPSEEK_API_KEY}',
+                    "Content-Type": "application/json"
+                },
+                json={
+                    "model": DEEPSEEK_MODEL,
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": "你是一名严谨的生物医学数据策展编辑。只输出最终中文摘要，不展示推理过程。"
+                        },
+                        {"role": "user", "content": prompt}
+                    ],
+                    "thinking": {"type": "disabled"},
+                    "max_tokens": 400,
+                    "temperature": 0.3,
+                    "stream": False
+                },
+                timeout=90
+            )
+            response.raise_for_status()
             content = response.json()["choices"][0]["message"]["content"]
-            # 清理思考标签
             return re.sub(r'<think>.*?</think>', '', content, flags=re.DOTALL).strip()
-    except Exception as e:
-        print(f"AI 摘要生成失败: {e}")
+        except (requests.RequestException, KeyError, TypeError, ValueError) as e:
+            status = getattr(getattr(e, "response", None), "status_code", None)
+            status_text = f"HTTP {status}" if status else type(e).__name__
+            print(f"    DeepSeek 摘要生成失败 ({attempt + 1}/{max_retries}, {status_text}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
 
     return ""
+
+
+def backfill_missing_ai_summaries(data):
+    """补齐历史记录中缺失的 AI 摘要，并统一两个摘要字段。"""
+    updated_count = 0
+    for record in data:
+        existing_summary = record.get("AI_Summary_CN") or record.get("AI_Summary")
+        if existing_summary and (
+            record.get("AI_Summary_CN") != existing_summary
+            or record.get("AI_Summary") != existing_summary
+        ):
+            record["AI_Summary_CN"] = existing_summary
+            record["AI_Summary"] = existing_summary
+            updated_count += 1
+
+    if not DEEPSEEK_API_KEY:
+        missing_count = sum(
+            not (record.get("AI_Summary_CN") or record.get("AI_Summary"))
+            for record in data
+        )
+        if missing_count:
+            print(f"待补齐 AI 摘要: {missing_count} 条（未设置 DEEPSEEK_API_KEY，本次跳过）")
+        return updated_count
+
+    missing_records = [
+        record for record in data
+        if not (record.get("AI_Summary_CN") or record.get("AI_Summary"))
+    ]
+    print(f"待补齐 AI 摘要: {len(missing_records)} 条")
+
+    for index, record in enumerate(missing_records, 1):
+        accession = record.get("Accession", "")
+        print(f"  [{index}/{len(missing_records)}] 生成摘要: {accession}")
+        ai_summary = generate_ai_summary(
+            record.get("Title", ""),
+            record.get("Summary", ""),
+            record.get("Data_Type", "")
+        )
+        if ai_summary:
+            record["AI_Summary_CN"] = ai_summary
+            record["AI_Summary"] = ai_summary
+            updated_count += 1
+            time.sleep(1)
+
+    return updated_count
 
 
 def fetch_geo_soft(accession):
@@ -249,10 +309,6 @@ def parse_record(record):
     soft_info = fetch_geo_soft(accession)
     time.sleep(0.3)
 
-    ai_summary = generate_ai_summary(title, summary, data_type)
-    if ai_summary:
-        time.sleep(1)  # API 速率限制
-
     return {
         "Accession": accession,
         "Title": title,
@@ -268,8 +324,8 @@ def parse_record(record):
         "Supplementary_Size": "N/A",
         "Summary": summary,
         "Overall_Design": soft_info.get("overall_design", ""),
-        "AI_Summary_CN": ai_summary,
-        "AI_Summary": ai_summary,
+        "AI_Summary_CN": "",
+        "AI_Summary": "",
         "GEO_Link": f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={accession}",
         "Submission_Date": record.get("PDAT", ""),
     }
@@ -307,10 +363,6 @@ def main():
     id_list = search_geo()
     print(f"搜索到: {len(id_list)} 条记录")
 
-    if not id_list:
-        print("没有新数据")
-        return
-
     # 获取摘要
     summaries = fetch_summaries(id_list)
 
@@ -339,11 +391,16 @@ def main():
             new_count += 1
             print(f"  新增: {accession}")
 
-    if new_count > 0:
+    summary_count = backfill_missing_ai_summaries(existing_data)
+
+    if new_count > 0 or summary_count > 0:
         save_data(existing_data)
-        print(f"完成! 新增 {new_count} 条数据，总计 {len(existing_data)} 条")
+        print(
+            f"完成! 新增 {new_count} 条数据，补齐 {summary_count} 条摘要，"
+            f"总计 {len(existing_data)} 条"
+        )
     else:
-        print("没有新数据需要添加")
+        print("没有新数据或摘要需要更新")
 
 
 if __name__ == "__main__":
