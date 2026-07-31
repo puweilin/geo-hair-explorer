@@ -1,5 +1,45 @@
 [
   {
+    "Accession": "GSE272917",
+    "Title": "Targeting phosphodiesterase 8A (PDE8A) and adipogenesis to promote hair regeneration",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 1,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Xiamen University",
+    "Contributors": "Zhang Ling-juan",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "To maximally capture adipocytes and hair follicle keratinocytes, which are largely lost through enzymatic digestion in scRNA-seq, we performed single-nuclei RNA sequencing (Sn-RNAseq) of the developing mouse skin samples. The aim of this analysis was to identify key cell-cell interactions between adipocytes and hair follicle keratinocytes. Briefly, dorsal skin biopsies were collected from the developing C57BL/6 pups (at postnatal day 2) and 10x Genomics Sn-RNAseq was applied to identify distinct cell populations. After low quality nuclei and outliers were discarded, ～16481 nuclei were used for downstream bioinformatic analyses, including Unsupervised clustering, marker gene expression, and Cell-Chat signaling network analyses. Overall, our results reveal that adipocytes secrete growth factor to support hair follicle growth.",
+    "Overall_Design": "To isolate single-nuclei, fresh P2 skin tissues were preserved by snap freezing in liquid nitrogen, transferred to a dounce homogenizer, grinded into a homogenate in lysis buffer. Nuclei were extracted by repeated washes with nuclear resuspension buffer and sucrose cushion buffer, then isolated nuclei were further purified by DAPI staining and sorting. Single nuclei were loaded on a 10x Genomics GemCode Single-cell instrument that generates single-cell Gel Bead-In-EMlusion (GEMs). single-nuclei libraries were prepared using Chromium Next GEM Single Cell 3â Reagent Kits v3.1. cDNA libraries were sequenced on an Illumina Novaseq6000 platform (Illumina). After low quality nuclei and outliers were discarded, ï½16481 nuclei were used for downstream bioinformatic analyses. Unsupervised clustering and gene expression were visualized with the Seurat on R studio, and assignment of cell clusters was based on expression of validated marker genes. The R package CellChat version 1.3.0 was applied to study the cell-cell interactions between adipocytes and hair follicle keratinocytes.",
+    "AI_Summary_CN": "本研究利用单核RNA测序技术分析发育期小鼠皮肤样本，旨在揭示脂肪细胞与毛囊角质形成细胞间的关键互作机制。通过无监督聚类、标记基因表达及Cell-Chat信号网络分析，鉴定出约16481个细胞核。结果显示脂肪细胞分泌生长因子，为靶向PDE8A和脂肪生成促进毛发再生提供了新见解。",
+    "AI_Summary": "本研究利用单核RNA测序技术分析发育期小鼠皮肤样本，旨在揭示脂肪细胞与毛囊角质形成细胞间的关键互作机制。通过无监督聚类、标记基因表达及Cell-Chat信号网络分析，鉴定出约16481个细胞核。结果显示脂肪细胞分泌生长因子，为靶向PDE8A和脂肪生成促进毛发再生提供了新见解。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272917",
+    "Submission_Date": "2026/07/30",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 19,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_growth"
+      ],
+      "summary": [
+        "hair_follicle"
+      ],
+      "overall_design": [
+        "hair_follicle"
+      ],
+      "summary_sample": [
+        "hair_follicle"
+      ],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE303402",
     "Title": "Human induced pluripotent stem cell-derived skin organoids recapitulate donor-specific pigmentation diversity",
     "Organism": "Homo sapiens",
