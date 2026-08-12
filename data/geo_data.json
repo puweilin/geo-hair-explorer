@@ -1,5 +1,113 @@
 [
   {
+    "Accession": "GSE328064",
+    "Title": "The fungal pathogen Candida auris exposes chitin to trigger IFNg and persist in hair follicles",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 1,
+    "Platform": "34328",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of California, San Francisco",
+    "Contributors": "Merrill Eric; Prudent Victoria; Basso Pauline; Rapp Emilie; Moghadam Parna; Rodriguez Abram; Hung Ethan; Hurabielle Charlotte; Cheng Jeffrey; Cho Raymond; Abegaze Brook; Buck Amanda; Pyper Kennedi; Veinbachs Allessandra; Wells Elina; Scharschmidt Tiffany; Rosenblum Michael; Molofsky Ari; Noble Suzanne",
+    "PubMed_IDs": "42561064",
+    "Supplementary_Size": "N/A",
+    "Summary": "Candida auris is an emerging multidrug-resistant fungus that has sparked public health alarm. However, the mechanisms supporting its persistence in skin, a major risk factor for deadly outbreaks, remain unclear. Here, we compared skin colonization by C. auris with that of the related pathobiont C. albicans, illuminating fungal–immune interactions. C. auris exhibited enhanced skin persistence, tropism to hair follicles, and direct binding to hair. Whereas C. albicans triggered a type 3/17-skewed sterilizing antifungal immune response, C. auris triggered a type 1 IFNg-driven response directed toward hair follicles. IFNg unexpectedly enhanced C. auris colonization through direct signaling to keratinocytes, impairing barrier integrity and repressing antifungal defense programs. Genetic and biochemical approaches demonstrated that, in response to skin-associated cues, C. auris upregulates the exposure of cell wall chitin, which is sufficient to trigger type 1 immunity and benefit the pathobiont.",
+    "Overall_Design": "Mouse back skin was topically colonized with either C. auris or C. albicans on days 0,2,4,6 and harvested on day 14. Cells were FACS sorted for CD45+ and CD45 negative in a 1:1 ratio, conditions were multiplexed, and scRNA sequencing was performed",
+    "AI_Summary_CN": "本研究通过bulk RNA-seq比较耳念珠菌与白念珠菌的皮肤定植差异，揭示耳念珠菌通过毛囊趋向性及直接结合毛发增强皮肤持久性。该菌触发I型干扰素驱动的免疫应答，而非白念珠菌的III型/17型杀菌反应。干扰素通过角化细胞信号损害屏障功能并抑制抗真菌程序，意外促进定植，为院内感染防控提供新靶点。",
+    "AI_Summary": "本研究通过bulk RNA-seq比较耳念珠菌与白念珠菌的皮肤定植差异，揭示耳念珠菌通过毛囊趋向性及直接结合毛发增强皮肤持久性。该菌触发I型干扰素驱动的免疫应答，而非白念珠菌的III型/17型杀菌反应。干扰素通过角化细胞信号损害屏障功能并抑制抗真菌程序，意外促进定植，为院内感染防控提供新靶点。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328064",
+    "Submission_Date": "2026/08/10",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 5,
+    "Relevance_Reason": "标题以毛囊、毛发生物学或脱发为主要研究主题",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle"
+      ],
+      "summary": [
+        "hair_follicle"
+      ],
+      "overall_design": [],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
+    "Accession": "GSE328701",
+    "Title": "The fungal pathogen Candida auris exposes chitin to trigger IFNg and persist in hair follicles [scRNA-seq EDM_exp2]",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 2,
+    "Platform": "34328",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of California, San Francisco",
+    "Contributors": "Merrill Eric; Prudent Victoria; Basso Pauline; Rapp Emilie; Moghadam Parna; Rodriguez Abram; Hung Ethan; Hurabielle Charlotte; Cheng Jeffrey; Cho Raymond; Abegaze Brook; Buck Amanda; Pyper Kennedi; Veinbachs Allessandra; Wells Elina; Scharschmidt Tiffany; Rosenblum Michael; Molofsky Ari; Noble Suzanne",
+    "PubMed_IDs": "42561064",
+    "Supplementary_Size": "N/A",
+    "Summary": "Candida auris is an emerging multidrug-resistant fungus that has sparked public health alarm. However, the mechanisms supporting its persistence in skin, a major risk factor for deadly outbreaks, remain unclear. Here, we compared skin colonization by C. auris with that of the related pathobiont C. albicans, illuminating fungal–immune interactions. C. auris exhibited enhanced skin persistence, tropism to hair follicles, and direct binding to hair. Whereas C. albicans triggered a type 3/17-skewed sterilizing antifungal immune response, C. auris triggered a type 1 IFNg-driven response directed toward hair follicles. IFNg unexpectedly enhanced C. auris colonization through direct signaling to keratinocytes, impairing barrier integrity and repressing antifungal defense programs. Genetic and biochemical approaches demonstrated that, in response to skin-associated cues, C. auris upregulates the exposure of cell wall chitin, which is sufficient to trigger type 1 immunity and benefit the pathobiont.",
+    "Overall_Design": "Mouse back skin from IFNgKO, IFNgOE (Yeti), IL17afKO and wild type mice was topically colonized with C. auris on days 0,2,4,6 and harvested on day 14. Cells were FACS sorted for CD45+ and CD45 negative in a 1:1 ratio, conditions were multiplexed, and scRNA sequencing was performed",
+    "AI_Summary_CN": "该研究利用bulk RNA-seq技术，探究多重耐药真菌耳念珠菌在皮肤定植的免疫逃逸机制。与白念珠菌诱导3/17型抗真菌免疫不同，耳念珠菌通过暴露几丁质触发IFNg驱动的1型免疫反应，并靶向毛囊持久定植。IFNg经角朊细胞信号损害屏障功能，反而促进真菌定植，揭示新型免疫逃逸机制。",
+    "AI_Summary": "该研究利用bulk RNA-seq技术，探究多重耐药真菌耳念珠菌在皮肤定植的免疫逃逸机制。与白念珠菌诱导3/17型抗真菌免疫不同，耳念珠菌通过暴露几丁质触发IFNg驱动的1型免疫反应，并靶向毛囊持久定植。IFNg经角朊细胞信号损害屏障功能，反而促进真菌定植，揭示新型免疫逃逸机制。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328701",
+    "Submission_Date": "2026/08/10",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 5,
+    "Relevance_Reason": "标题以毛囊、毛发生物学或脱发为主要研究主题",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle"
+      ],
+      "summary": [
+        "hair_follicle"
+      ],
+      "overall_design": [],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
+    "Accession": "GSE329153",
+    "Title": "The fungal pathogen Candida auris exposes chitin to trigger IFNg and persist in hair follicles [EDM_bulkRNA-seq]",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 26,
+    "Platform": "24676",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of California, San Francisco",
+    "Contributors": "Merrill Eric; Prudent Victoria; Basso Pauline; Rapp Emilie; Moghadam Parna; Rodriguez Abram; Hung Ethan; Hurabielle Charlotte; Cheng Jeffrey; Cho Raymond; Abegaze Brook; Buck Amanda; Pyper Kennedi; Veinbachs Allessandra; Wells Elina; Scharschmidt Tiffany; Rosenblum Michael; Molofsky Ari; Noble Suzanne",
+    "PubMed_IDs": "42561064",
+    "Supplementary_Size": "N/A",
+    "Summary": "Candida auris is an emerging multidrug-resistant fungus that has sparked public health alarm. However, the mechanisms supporting its persistence in skin, a major risk factor for deadly outbreaks, remain unclear. Here, we compared skin colonization by C. auris with that of the related pathobiont C. albicans, illuminating fungal–immune interactions. C. auris exhibited enhanced skin persistence, tropism to hair follicles, and direct binding to hair. Whereas C. albicans triggered a type 3/17-skewed sterilizing antifungal immune response, C. auris triggered a type 1 IFNg-driven response directed toward hair follicles. IFNg unexpectedly enhanced C. auris colonization through direct signaling to keratinocytes, impairing barrier integrity and repressing antifungal defense programs. Genetic and biochemical approaches demonstrated that, in response to skin-associated cues, C. auris upregulates the exposure of cell wall chitin, which is sufficient to trigger type 1 immunity and benefit the pathobiont.",
+    "Overall_Design": "***************************************************************",
+    "AI_Summary_CN": "本研究利用bulk RNA-seq技术，比较了耳念珠菌与白念珠菌的皮肤定植差异，揭示耳念珠菌通过毛囊趋向性及直接结合毛发增强皮肤持久性。其触发I型干扰素驱动的免疫应答，而非白念珠菌的3/17型杀菌反应。干扰素γ经角化细胞信号损害屏障功能并抑制抗真菌防御，反而促进定植，为耳念珠菌爆发机制提供新见解。",
+    "AI_Summary": "本研究利用bulk RNA-seq技术，比较了耳念珠菌与白念珠菌的皮肤定植差异，揭示耳念珠菌通过毛囊趋向性及直接结合毛发增强皮肤持久性。其触发I型干扰素驱动的免疫应答，而非白念珠菌的3/17型杀菌反应。干扰素γ经角化细胞信号损害屏障功能并抑制抗真菌防御，反而促进定植，为耳念珠菌爆发机制提供新见解。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329153",
+    "Submission_Date": "2026/08/10",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 5,
+    "Relevance_Reason": "标题以毛囊、毛发生物学或脱发为主要研究主题",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle"
+      ],
+      "summary": [
+        "hair_follicle"
+      ],
+      "overall_design": [],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE272917",
     "Title": "Targeting phosphodiesterase 8A (PDE8A) and adipogenesis to promote hair regeneration",
     "Organism": "Mus musculus",
