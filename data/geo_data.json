@@ -1,5 +1,91 @@
 [
   {
+    "Accession": "GSE343613",
+    "Title": "A two-hit mechanism triggers autoimmune hair loss",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 22,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Beijing Hospital",
+    "Contributors": "Chen Ting; Cui Jun; Wu Peng; Chang Ying; Yu Yi; Gao Zhi; Ge Yejing; Li Bin; Huang Huanwei; Chang Jianmin",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Autoimmune diseases arise from a breakdown of immune tolerance, yet the mechanisms that initiate tissue-specific autoimmunity remain poorly understood. Here, we identify a two-hit mechanism in which immune dysregulation and physiological neural activation converge to trigger autoimmune alopecia. We show that transient depletion of regulatory T cells (Tregs) during the anagen phase of the hair cycle, but not during telogen, induces CD8+ T cell-mediated destruction of immune-privileged hair follicle stem cells (HFSCs), resulting in hair loss. This anagen-restricted susceptibility depends on sympathetic nerve activity, which is physiologically elevated during anagen: sympathetic denervation prevents disease, whereas psychological stress or optogenetic activation of sympathetic nerves renders otherwise resistant telogen skin susceptible to autoimmune attack following Treg depletion. Mechanistically, sympathetic norepinephrine signaling through HFSC-intrinsic ADRB2 promotes physiological reactivation of endogenous retroviruses (ERVs) in anagen HFSCs. Under conditions of Treg depletion, this ERV-associated state drives autoimmune pathology by engaging AIM2-dependent innate immune activation and pathogenic CD8+ T cell responses. Accordingly, genetic ablation of Aim2 or pharmacological inhibition of ERV reverse transcription protects against disease development. Together, these findings show that physiological sympathetic activity establishes a transiently vulnerable epithelial state, whereas Tregs prevent this state from progressing to tissue-specific autoimmunity. This neuro–epithelial–immune circuit links hair-cycle state to the breach of HFSC immune privilege and the initiation of autoimmune alopecia.",
+    "Overall_Design": "Back skin hair follicle stem cells (HFSCs) were fluorescenceâactivated cell sorted (FACS) from different genotypes of mice under anagen and telogen hairâcycle stages. Total RNA was extracted from sorted HFSCs. Ribosomal RNA depletion was performed, followed by strandâspecific RNAâseq library construction. Libraries were subjected to highâthroughput sequencing.",
+    "AI_Summary_CN": "本研究通过bulk RNA-seq揭示自身免疫性脱发的“双重打击”机制：免疫失调与生理性神经激活协同触发疾病。发现毛囊生长期短暂清除调节性T细胞，而非休止期，可导致CD8+ T细胞攻击免疫豁免的毛囊干细胞，引发脱发。该过程依赖生长期交感神经活性增强，去神经支配可预防疾病，而心理应激或光遗传激活交感神经则加剧病情，为理解组织特异性自身免疫提供新视角。",
+    "AI_Summary": "本研究通过bulk RNA-seq揭示自身免疫性脱发的“双重打击”机制：免疫失调与生理性神经激活协同触发疾病。发现毛囊生长期短暂清除调节性T细胞，而非休止期，可导致CD8+ T细胞攻击免疫豁免的毛囊干细胞，引发脱发。该过程依赖生长期交感神经活性增强，去神经支配可预防疾病，而心理应激或光遗传激活交感神经则加剧病情，为理解组织特异性自身免疫提供新视角。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343613",
+    "Submission_Date": "2026/08/18",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 20,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_loss"
+      ],
+      "summary": [
+        "hair_follicle",
+        "hair_follicle_stem_cell",
+        "hair_cycle_stage",
+        "hair_cycle",
+        "hair_loss",
+        "alopecia"
+      ],
+      "overall_design": [
+        "hair_follicle",
+        "hair_follicle_stem_cell",
+        "hair_cycle_stage"
+      ],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
+    "Accession": "GSE343853",
+    "Title": "A two-hit mechanism triggers autoimmune hair loss [scRNA-seq]",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 4,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Beijing Hospital",
+    "Contributors": "Chen Ting; Cui Jun; Wu Peng; Chang Ying; Yu Yi; Gao Zhi; Ge Yejing; Li Bin; Huang Huanwei; Chang Jianmin",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Autoimmune diseases arise from a breakdown of immune tolerance, yet the mechanisms that initiate tissue-specific autoimmunity remain poorly understood. Here, we identify a two-hit mechanism in which immune dysregulation and physiological neural activation converge to trigger autoimmune alopecia. We show that transient depletion of regulatory T cells (Tregs) during the anagen phase of the hair cycle, but not during telogen, induces CD8+ T cell-mediated destruction of immune-privileged hair follicle stem cells (HFSCs), resulting in hair loss. This anagen-restricted susceptibility depends on sympathetic nerve activity, which is physiologically elevated during anagen: sympathetic denervation prevents disease, whereas psychological stress or optogenetic activation of sympathetic nerves renders otherwise resistant telogen skin susceptible to autoimmune attack following Treg depletion. Mechanistically, sympathetic norepinephrine signaling through HFSC-intrinsic ADRB2 promotes physiological reactivation of endogenous retroviruses (ERVs) in anagen HFSCs. Under conditions of Treg depletion, this ERV-associated state drives autoimmune pathology by engaging AIM2-dependent innate immune activation and pathogenic CD8+ T cell responses. Accordingly, genetic ablation of Aim2 or pharmacological inhibition of ERV reverse transcription protects against disease development. Together, these findings show that physiological sympathetic activity establishes a transiently vulnerable epithelial state, whereas Tregs prevent this state from progressing to tissue-specific autoimmunity. This neuro–epithelial–immune circuit links hair-cycle state to the breach of HFSC immune privilege and the initiation of autoimmune alopecia.",
+    "Overall_Design": "Singleâcell RNAâseq was performed on dorsal skin from Tregâdepleted (DTâtreated) and control (PBSâtreated) mice. Dorsal skin tissues were harvested, subcutaneous fat removed, followed by enzymatic digestion for generation of singleâcell suspensions for scRNAâseq library construction.",
+    "AI_Summary_CN": "本研究通过bulk RNA-seq技术，揭示自身免疫性脱发的“双重打击”机制：免疫失调与生理性神经激活协同触发疾病。发现毛囊生长期而非休止期短暂清除调节性T细胞，可导致CD8+ T细胞攻击免疫豁免的毛囊干细胞，且该过程依赖生长期交感神经活性增强。研究为组织特异性自身免疫的启动机制提供新见解。",
+    "AI_Summary": "本研究通过bulk RNA-seq技术，揭示自身免疫性脱发的“双重打击”机制：免疫失调与生理性神经激活协同触发疾病。发现毛囊生长期而非休止期短暂清除调节性T细胞，可导致CD8+ T细胞攻击免疫豁免的毛囊干细胞，且该过程依赖生长期交感神经活性增强。研究为组织特异性自身免疫的启动机制提供新见解。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343853",
+    "Submission_Date": "2026/08/18",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 11,
+    "Relevance_Reason": "标题以毛囊、毛发生物学或脱发为主要研究主题",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_loss"
+      ],
+      "summary": [
+        "hair_follicle",
+        "hair_follicle_stem_cell",
+        "hair_cycle_stage",
+        "hair_cycle",
+        "hair_loss",
+        "alopecia"
+      ],
+      "overall_design": [],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE328064",
     "Title": "The fungal pathogen Candida auris exposes chitin to trigger IFNg and persist in hair follicles",
     "Organism": "Mus musculus",
