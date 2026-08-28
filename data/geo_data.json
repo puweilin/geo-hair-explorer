@@ -1,5 +1,44 @@
 [
   {
+    "Accession": "GSE344141",
+    "Title": "Fluoxetine activates melanocyte stem cells indirectly through the epithelial 5-hydroxytryptamine (5-HT) receptor 1A/Wnt signaling to regenerate melanocytes",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 12,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "China Pharmaceutical University",
+    "Contributors": "Zhang Xiaofeng; Song Xinhao; Zhu Min; Yu Meng; Peng Zan; Chen Yufei; Zhao Haijie; Guo Tiantian; Liu Jun; Yue Yunyun; Shang Jing",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Melanocyte stem cells (McSCs) serve as the major origin of epidermal melanocytes in adults and fulfill a critical function in skin homeostasis, repair, and regeneration. Preclinical and clinical studies confirm McSCs have therapeutic potential for diseases including vitiligo. This study shows fluoxetine treatment, a 5-hydroxytryptamine (5-HT) reuptake inhibitor reported to promote melanin production, is associated with McSC activation. Using narrow-band UVB (NB-UVB) irradiation as a positive control, we found that 14-day fluoxetine treatment was associated with an increased number of epidermal melanocytes in the McSC-depletion mouse model, an effect correlated with upregulated hair follicle McSC activation 1–3 days post-treatment. Notably, at the study timepoint, unlike NB-UVB irradiation, fluoxetine treatment was associated with no oxidative stress, DNA damage, apoptosis, or inflammation in mouse skin. Furthermore, the receptor HTR1A and Wnt7a colocalized in hair germ epithelial cells on day 3, with both molecules upregulated in fluoxetine-treated group. In vitro experiments indicated that fluoxetine indirectly activated Wnt signaling through epithelial HTR1A, regulating melanocyte differentiation. Collectively, this study provides a foundation for investigating the dynamic behavior of early melanocytes and developing skin repair strategies.",
+    "Overall_Design": "RNA-seq profiling of dorsal skin from an McSC-depletion mouse model established by repeated depilation (RPT) with four groups: control, RPT, fluoxetine (Flu), and NB-UVB (n = 3 per group). Skin samples were collected on day 3 post-treatment for RNA-seq.",
+    "AI_Summary_CN": "本研究利用bulk RNA-seq技术，探究氟西汀通过上皮5-羟色胺1A受体/Wnt信号间接激活黑色素干细胞（McSCs）以促进黑色素细胞再生的机制。结果显示，14天氟西汀治疗可增加McSC耗竭小鼠表皮黑色素细胞数量，并上调毛囊McSC激活，为白癜风等色素性疾病治疗提供新策略。",
+    "AI_Summary": "本研究利用bulk RNA-seq技术，探究氟西汀通过上皮5-羟色胺1A受体/Wnt信号间接激活黑色素干细胞（McSCs）以促进黑色素细胞再生的机制。结果显示，14天氟西汀治疗可增加McSC耗竭小鼠表皮黑色素细胞数量，并上调毛囊McSC激活，为白癜风等色素性疾病治疗提供新策略。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344141",
+    "Submission_Date": "2026/08/26",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 14,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [],
+      "summary": [
+        "hair_follicle",
+        "hair_compartment"
+      ],
+      "overall_design": [
+        "hair_depletion_model"
+      ],
+      "summary_sample": [
+        "hair_follicle"
+      ],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE343613",
     "Title": "A two-hit mechanism triggers autoimmune hair loss",
     "Organism": "Mus musculus",

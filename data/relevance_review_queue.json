@@ -1,5 +1,44 @@
 [
   {
+    "Accession": "GSE342896",
+    "Title": "Sharp cell type boundaries emerge from coordinated morphogen signaling [CUT&Run]",
+    "Summary": "Classic models of the French flag problem depict sharp cell-type boundaries emerging from threshold responses to morphogen gradients. How discrete cell-type boundaries arise from morphogen signals that vary continuously across developing tissues remains incompletely understood. We use hair follicle dermal condensate (DC) formation to study a sharp developmental transition in which proliferative progenitors undergo cell-cycle exit concurrent with molecular differentiation. Using genetic and genomic approaches, we show that Wnt and Hedgehog signaling coordinate separable cellular events during DC commitment. Elevated Wnt signaling promotes cell-cycle exit by reducing chromatin binding of the Hedgehog mediator GLI3, while Hedgehog signaling induces differentiation genes in a Wnt-dependent manner and simultaneously elevates Wnt activity. When these responses coincide, differentiation and cell-cycle exit occur together, limiting the duration and abundance of intermediate states and producing a sharp boundary. When they do not, intermediate states persist and expand, producing a graded boundary. Thus, a sharp boundary can emerge from a continuous transition that is compressed in time and space.",
+    "Overall_Design": "Using gemoic mutated mouse model to perform CUT&RUN procedure in order to examine the binding pattern of various Gli transcriptional facotrs.",
+    "Submission_Date": "2026/08/25",
+    "Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342896"
+  },
+  {
     "Accession": "GSE303380",
     "Title": "Lateral plate mesoderm directs human amnion and ventral skin organoid formation",
     "Summary": "Recently, we demonstrated that craniofacial skin, including dermis, epidermis, and hair, can be derived by manipulating signaling factors to co-induce epidermal-dermal progenitors. Here, we advance this approach by controlling the size and composition of cranial skin organoids (cSkOs) and incorporating lateral plate mesoderm (LPM) cells to create ventral skin organoids (vSkOs) and human amnion-like structures, termed Amnioids. Amnioids, resembling their extra-embryonic counterparts, are avascular and rapidly expand into large, hairless cysts, while vSkOs develop primitive vasculature and numerous hair follicles. Single-cell RNA sequencing identified distinct gene expression patterns and developmental trajectories, revealing the critical roles of Wnt and YAP/Hippo signaling in directing divergent fates. Functional experiments underscored the importance of mechanical forces and mesenchymal-epithelial interactions in shaping tissue growth and organization. This study presents a novel in vitro model to explore the interface of embryonic and extraembryonic tissues, with implications for understanding congenital disorders and advancing regenerative medicine.",
