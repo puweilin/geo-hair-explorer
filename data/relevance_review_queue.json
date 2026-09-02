@@ -1,5 +1,167 @@
 [
   {
+    "Accession": "GSE328960",
+    "Title": "A conformation-sensitive product inhibitor of HDAC1/2 potentiates WNT/β-catenin signaling [RNA-seq]",
+    "Summary": "Pharmacological enhancement of WNT/β-catenin signaling holds promises for tissue repair and regeneration. Here, we identify WNA1, an isoxazole-based small molecule, as a potent activator of WNT/β-catenin signaling. WNA1 stimulates β-catenin signaling in different cellular contexts, and this activity requires production of endogenous WNT. In vivo, WNA1 promotes skin hair growth, consistent with the established role of β-catenin signaling in hair follicle development. Intriguingly, WNA1 increases histone acetylation with minimal activity on uncomplexed recombinant histone deacetylases (HDACs), while conventional HDAC inhibitors exhibit minimal β-catenin-stabilizing activity. We demonstrate that β-catenin signaling is repressed by the HDAC1/2-containing NuRD complex, and that WNA1 enhances β-catenin signaling through selectively inhibiting HDAC1/2. Structural and biochemical analyses reveal that WNA1 is hydrolyzed by the HDAC1-MTA1 complex, and its product is trapped in the foot-pocket of HDAC1 in an InsP6-dependent manner. HDAC1 mutants with reduced foot-pocket abrogate WNA1-induced histone acetylation and β-catenin accumulation. These findings establish WNA1 as a conformation-sensitive, foot-pocket-anchored product inhibitor that selectively targets complex-bound HDAC1/2. Our study reveals a unique mechanism for HDAC1/2 inhibition and WNT potentiation, paving the way for therapeutic applications.",
+    "Overall_Design": "RNAâseq was performed to quantify transcriptional responses of HEK293 cells to pharmacological perturbation of histone deacetylase activity. Samples include cells treated with WNA1, ACY957, or LBH589, as well as matched DMSO vehicle controls. Each treatment condition was analyzed using biological replicates. The design enables differential gene expression analysis comparing compoundâtreated samples to vehicle controls.",
+    "Submission_Date": "2026/09/01",
+    "Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328960"
+  },
+  {
+    "Accession": "GSE328959",
+    "Title": "A conformation-sensitive product inhibitor of HDAC1/2 potentiates WNT/β-catenin signaling [ChIP-seq II]",
+    "Summary": "Pharmacological enhancement of WNT/β-catenin signaling holds promises for tissue repair and regeneration. Here, we identify WNA1, an isoxazole-based small molecule, as a potent activator of WNT/β-catenin signaling. WNA1 stimulates β-catenin signaling in different cellular contexts, and this activity requires production of endogenous WNT. In vivo, WNA1 promotes skin hair growth, consistent with the established role of β-catenin signaling in hair follicle development. Intriguingly, WNA1 increases histone acetylation with minimal activity on uncomplexed recombinant histone deacetylases (HDACs), while conventional HDAC inhibitors exhibit minimal β-catenin-stabilizing activity. We demonstrate that β-catenin signaling is repressed by the HDAC1/2-containing NuRD complex, and that WNA1 enhances β-catenin signaling through selectively inhibiting HDAC1/2. Structural and biochemical analyses reveal that WNA1 is hydrolyzed by the HDAC1-MTA1 complex, and its product is trapped in the foot-pocket of HDAC1 in an InsP6-dependent manner. HDAC1 mutants with reduced foot-pocket abrogate WNA1-induced histone acetylation and β-catenin accumulation. These findings establish WNA1 as a conformation-sensitive, foot-pocket-anchored product inhibitor that selectively targets complex-bound HDAC1/2. Our study reveals a unique mechanism for HDAC1/2 inhibition and WNT potentiation, paving the way for therapeutic applications.",
+    "Overall_Design": "NuRD ChIPâseq was performed to map genomeâwide binding of NuRD complex components (HDAC1, MTA1, and CHD4) in HEK293 cells under basal conditions. Each factor was analyzed using biological replicates and matched input controls to define reproducible chromatin occupancy profiles.",
+    "Submission_Date": "2026/09/01",
+    "Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328959"
+  },
+  {
+    "Accession": "GSE328958",
+    "Title": "A conformation-sensitive product inhibitor of HDAC1/2 potentiates WNT/β-catenin signaling [ChIP-seq]",
+    "Summary": "Pharmacological enhancement of WNT/β-catenin signaling holds promises for tissue repair and regeneration. Here, we identify WNA1, an isoxazole-based small molecule, as a potent activator of WNT/β-catenin signaling. WNA1 stimulates β-catenin signaling in different cellular contexts, and this activity requires production of endogenous WNT. In vivo, WNA1 promotes skin hair growth, consistent with the established role of β-catenin signaling in hair follicle development. Intriguingly, WNA1 increases histone acetylation with minimal activity on uncomplexed recombinant histone deacetylases (HDACs), while conventional HDAC inhibitors exhibit minimal β-catenin-stabilizing activity. We demonstrate that β-catenin signaling is repressed by the HDAC1/2-containing NuRD complex, and that WNA1 enhances β-catenin signaling through selectively inhibiting HDAC1/2. Structural and biochemical analyses reveal that WNA1 is hydrolyzed by the HDAC1-MTA1 complex, and its product is trapped in the foot-pocket of HDAC1 in an InsP6-dependent manner. HDAC1 mutants with reduced foot-pocket abrogate WNA1-induced histone acetylation and β-catenin accumulation. These findings establish WNA1 as a conformation-sensitive, foot-pocket-anchored product inhibitor that selectively targets complex-bound HDAC1/2. Our study reveals a unique mechanism for HDAC1/2 inhibition and WNT potentiation, paving the way for therapeutic applications.",
+    "Overall_Design": "H3K9acK14ac ChIPâseq samples were generated to quantify genomeâwide histone acetylation changes in HEK293 cells following treatment with smallâmolecule compounds targeting histone deacetylase activity. Samples include cells treated with WNA1, ACY957, and LBH589, as well as matched DMSO vehicle controls, with biological replicates for each condition. To enable accurate comparison of histone acetylation levels across treatment conditions, a modified inâsitu barcoding and pooledâsample ChIPâseq design was employed. In this design, chromatin from each experimental condition was uniquely barcoded prior to pooling, allowing all samples to be processed together during immunoprecipitation and library preparation. This strategy minimizes technical variability between samples and ensures that observed differences in signal reflect biological variation rather than batch effects. In parallel, ChIPâseq samples targeting total histone H3 were included as internal reference controls. These reference samples enable normalization of H3K9acK14ac signals to total nucleosome occupancy and allow correction for treatmentâinduced global changes in histone acetylation that would otherwise confound standard ChIPâseq comparisons. Together, this experimental design enables quantitative, conditionâtoâcondition comparison of histone acetylation states across the genome while preserving sensitivity to global as well as locusâspecific acetylation changes, facilitating integrated analysis with transcriptomic data from the same treatment conditions.",
+    "Submission_Date": "2026/09/01",
+    "Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328958"
+  },
+  {
+    "Accession": "GSE255125",
+    "Title": "Rete ridges form through evolutionarily distinct mechanisms from other appendages during mammalian skin development [1]",
+    "Summary": "The loss of fur during human evolution has long mystified scientists and the public. This loss coincides with the acquisition of epidermal rete ridges, whose developmental timing and molecular mechanisms are poorly understood despite their prominence in humans. Examination of human and pig skin development revealed that rete ridges form through an independent mechanism from hair follicles and sweat glands by establishing interconnecting epidermal invaginations. We documented rete ridge occurrence across Mammalia, including in grizzly bears and dolphins, and showed that neonatal pig wounds can regenerate them de novo. Multi-species spatiotemporal transcriptomics identified significant signaling interactions between epidermal and dermal cells during rete ridge morphogenesis, particularly through BMP. We also demonstrated that murine fingerpad skin forms rete ridges and functionally requires epidermal BMP signaling. Therefore, we propose that the evolution of rete ridges in mammalian skin involved replacement of the molecular program for periodic patterning and subsequent downgrowth of discrete appendages, such as hair follicles and sweat glands, coupled with broad activation of BMP to generate an interconnecting rete ridge network organized around vascularized dermal pockets. Understanding these mechanisms may allow for the development of therapeutic approaches to regenerate epidermal appendages lost during wounding or disease in humans.",
+    "Overall_Design": "Skin samples from a E90 fetal pig, P3 neonatal pig, P10 neonatal pig, and 6-month old adult pig were collected under approved protocols and processed to generate a single-cell suspension from the epidermis and dermis in 1:1 ratios for 10x Genomics scRNA-seq. Fixed-frozen skin samples from a P3 neonatal pig, P10 neonatal pig, and 6-month old adult pig were collected under approved protocols and processed for spatial transcriptomics using Complete Genomics's Stereo-seq. Additionally, we re-analyzed previously published scRNA-seq datasets from Glover et al., 2023; Cheng et al., 2018; SolÃ©-Boldo et al., 2020; Liu et al., 2022 based on their published sequencing files.",
+    "Submission_Date": "2026/09/01",
+    "Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255125"
+  },
+  {
     "Accession": "GSE342896",
     "Title": "Sharp cell type boundaries emerge from coordinated morphogen signaling [CUT&Run]",
     "Summary": "Classic models of the French flag problem depict sharp cell-type boundaries emerging from threshold responses to morphogen gradients. How discrete cell-type boundaries arise from morphogen signals that vary continuously across developing tissues remains incompletely understood. We use hair follicle dermal condensate (DC) formation to study a sharp developmental transition in which proliferative progenitors undergo cell-cycle exit concurrent with molecular differentiation. Using genetic and genomic approaches, we show that Wnt and Hedgehog signaling coordinate separable cellular events during DC commitment. Elevated Wnt signaling promotes cell-cycle exit by reducing chromatin binding of the Hedgehog mediator GLI3, while Hedgehog signaling induces differentiation genes in a Wnt-dependent manner and simultaneously elevates Wnt activity. When these responses coincide, differentiation and cell-cycle exit occur together, limiting the duration and abundance of intermediate states and producing a sharp boundary. When they do not, intermediate states persist and expand, producing a graded boundary. Thus, a sharp boundary can emerge from a continuous transition that is compressed in time and space.",

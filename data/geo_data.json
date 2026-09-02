@@ -1,5 +1,45 @@
 [
   {
+    "Accession": "GSE315331",
+    "Title": "Characterization of Sebaceous Gland Stem Cell Illuminates a Strategy for Maintaining Skin Oil Balance [CUT&Run]",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 12,
+    "Platform": "34290",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of Virginia",
+    "Contributors": "Zhang Yumeng; McKay Renee; Le Lu",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Dry skin, caused by both environmental and lifestyle factors as well as internal factors, profoundly impacts health. Oil-producing sebaceous glands (SGs), attached to the upper portions of hair follicles, are indispensable for maintaining skin hydration, and their dysfunction has a concrete connection to dry skin. However, the cellular and molecular mechanisms underlying SG resident stem cells remain largely unknown. Here we identified transcription factor KROX20 as a novel marker of SG resident stem cells by sustaining their stemness, governing the cellular input into LRIG1-positive SG progenitors and their downstream sebocytes throughout SG morphogenesis and homeostasis. Remarkably, we observed that functional decline of SGs due to gland atrophy or ageing triggers natural resilience mechanism, manifested by autonomic regulation of the stem cell maintainer KROX20, providing a molecular illustration of the concept that ‘life finds a way’. Strikingly, we developed an inducible KROX20-positive cell ablation mouse that rapidly and robustly develops develop systemic dry flakey alopecia symptoms upon induction, named as Xeroflacia (Xero = xerosis, fla = flakey, cia = alopecia), representing a new mouse model to study the biological of dry skin and dry skin-associated alopecia. Furthermore, by characterizing genes regulated by KROX20, we unveiled that KROX20 directly modulates Notch1 transcription to orchestrate the balance between SG stem cell self-renewal and differentiation, and manipulation of Notch1 signaling provides a potential approach for topical treatment with Notch1 signaling inhibitor or activator to regulate skin oiliness and dryness. Collectively, KROX20 is indispensable for maintaining stemness of SG resident stem cells, enabling natural resilience against functional decline of SGs, and topical modulation of Krox20-Notch1 signaling offers a potential strategy to maintain skin oil balance.",
+    "Overall_Design": "The 2 Ã 1.5 cm depilated telogen dorsal skin from wild type and Krox20-cKO mice was excised, the hypodermis was finely removed under a dissection microscope, and then skin was finely minced using a razor blade on ice. The minced skin was lightly fixed using 0.1% formaldehyde for 2 min at room temperature, following termination of cross-linking using glycine. The fixed minced skin was then disaggregated into single-cell suspension using a Scilogex D160 Homogenizer. CUT&RUN was performed following instruction of CUT&RUN Assay Kit (86652, Cell Signaling).",
+    "AI_Summary_CN": "本研究通过bulk RNA-seq及CUT&Run技术，探究皮脂腺干细胞维持皮肤油水平衡的机制。发现转录因子KROX20为皮脂腺驻留干细胞新标志物，维持其干性并调控LRIG1阳性祖细胞及皮脂细胞分化，揭示腺体萎缩或衰老时功能衰退的天然恢复策略，为干性皮肤治疗提供新靶点。",
+    "AI_Summary": "本研究通过bulk RNA-seq及CUT&Run技术，探究皮脂腺干细胞维持皮肤油水平衡的机制。发现转录因子KROX20为皮脂腺驻留干细胞新标志物，维持其干性并调控LRIG1阳性祖细胞及皮脂细胞分化，揭示腺体萎缩或衰老时功能衰退的天然恢复策略，为干性皮肤治疗提供新靶点。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315331",
+    "Submission_Date": "2026/09/01",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 7,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [],
+      "summary": [
+        "hair_follicle",
+        "alopecia"
+      ],
+      "overall_design": [
+        "hair_cycle_stage",
+        "hair_depletion_model"
+      ],
+      "summary_sample": [],
+      "incidental": [
+        "clinical_manifestation"
+      ],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE344141",
     "Title": "Fluoxetine activates melanocyte stem cells indirectly through the epithelial 5-hydroxytryptamine (5-HT) receptor 1A/Wnt signaling to regenerate melanocytes",
     "Organism": "Mus musculus",
