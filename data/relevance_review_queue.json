@@ -1,5 +1,46 @@
 [
   {
+    "Accession": "GSE309302",
+    "Title": "Importance of Golgi homeostasis in hair quality: Grasp55 is crucial for cuticle formation",
+    "Summary": "The Golgi apparatus is a central hub for protein processing, trafficking, and secretion, and its integrity is essential for epidermal barrier function and hair follicle homeostasis. While Golgi dysfunction has been linked to skin and hair abnormalities, its direct contribution to hair shaft formation remains unclear. Here, we investigated the role of Golgi reassembly stacking protein 55 (GRASP55), a structural factor critical for cisternal stacking and membrane tethering, in hair biology. We generated Grasp55 knockout (KO) mice and analyzed the ultrastructure and mechanical properties of their hair shafts.",
+    "Overall_Design": "To delineate the molecular mechanisms underlying these phenotypes, we conducted RNA-sequencing (RNA-seq) analysis in human primary keratinocytes following shRNA-mediated knockdown of GRASP55",
+    "Submission_Date": "2026/09/16",
+    "Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_compartment"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 4,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle",
+        "hair_compartment"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309302"
+  },
+  {
     "Accession": "GSE328960",
     "Title": "A conformation-sensitive product inhibitor of HDAC1/2 potentiates WNT/β-catenin signaling [RNA-seq]",
     "Summary": "Pharmacological enhancement of WNT/β-catenin signaling holds promises for tissue repair and regeneration. Here, we identify WNA1, an isoxazole-based small molecule, as a potent activator of WNT/β-catenin signaling. WNA1 stimulates β-catenin signaling in different cellular contexts, and this activity requires production of endogenous WNT. In vivo, WNA1 promotes skin hair growth, consistent with the established role of β-catenin signaling in hair follicle development. Intriguingly, WNA1 increases histone acetylation with minimal activity on uncomplexed recombinant histone deacetylases (HDACs), while conventional HDAC inhibitors exhibit minimal β-catenin-stabilizing activity. We demonstrate that β-catenin signaling is repressed by the HDAC1/2-containing NuRD complex, and that WNA1 enhances β-catenin signaling through selectively inhibiting HDAC1/2. Structural and biochemical analyses reveal that WNA1 is hydrolyzed by the HDAC1-MTA1 complex, and its product is trapped in the foot-pocket of HDAC1 in an InsP6-dependent manner. HDAC1 mutants with reduced foot-pocket abrogate WNA1-induced histone acetylation and β-catenin accumulation. These findings establish WNA1 as a conformation-sensitive, foot-pocket-anchored product inhibitor that selectively targets complex-bound HDAC1/2. Our study reveals a unique mechanism for HDAC1/2 inhibition and WNT potentiation, paving the way for therapeutic applications.",
