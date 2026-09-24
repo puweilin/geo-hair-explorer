@@ -1,5 +1,137 @@
 [
   {
+    "Accession": "GSE308939",
+    "Title": "Single-cell RNA-seq reveals the keratinocyte heterogeneity and increased interfollicular basal keratinocytes in wound-induced hair follicle neogenesis",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "First Affiliated Hospital of Guangzhou Medical University",
+    "Contributors": "Shang Mingwei; Zhu Huiling; She Qiuyun; Wang Xia; Liufu Qian; Tang Ziyuan; Huang Weining; Liu Zhongrong",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Scarring alopecia is an unresolved challenge characterized by scar formation following skin injury without hair follicle (HF) regeneration. Wound-induced hair follicle neogenesis (WIHN) is a model in which HFs regenerate after skin wounding. This study aimed to explore the mechanisms underlying WIHN, hinting for the new therapeutic strategies for scarring alopecia. Our results indicated that keratinocytes were categorized into 8 subpopulations, with a notable increase in the proportion of INFU basal KCs in tissue with WIHN, which was validated by IF staining. Pseudotime analysis revealed that the marker gene Fst of INFU basal KC was activated earlier in tissue with WIHN. Fibroblasts were classified into 5 subpopulations, with an increase in the proportions of secretory reticular fibroblasts. Cell-cell communication analysis showed that interactions between INFU basal KC and secretory reticular fibroblasts were significantly enhanced. Enrichment analysis further demonstrated that extracellular matrix (ECM)-receptor interactions were significantly enriched in ligand-receptor interactions. Masson staining exhibited decreased collagen content in tissue with WIHN.These findings suggest that the importance of INFU basal KCs in WIHN and that the ECM reconstruction is crucial for WIHN. Our study contributes to a better understanding of the underlying mechanisms of WIHN.",
+    "Overall_Design": "We created large wounds (LW) and small wounds (SW) on the dorsal side of mice respectively, and hair follicle regeneration was confirmed by whole mount assay and HE staining. The re-epithelized tissues of 3 LW mice and 3 SW mice were collected for single-cell RNA sequencing analysis. Results were corroborated by immunofluorescence (IF) staining and masson staining.",
+    "AI_Summary_CN": "本研究旨在探索创伤诱导毛囊新生（WIHN）的细胞机制，为瘢痕性脱发治疗提供线索。利用单细胞RNA测序，发现角质细胞可分为8个亚群，WIHN组织中毛囊间基底层角质细胞比例显著增加，并经免疫荧光验证；伪时间分析显示其标志基因Fst激活提前。成纤维细胞分为5个亚群，分泌性网状成纤维细胞比例上升。",
+    "AI_Summary": "本研究旨在探索创伤诱导毛囊新生（WIHN）的细胞机制，为瘢痕性脱发治疗提供线索。利用单细胞RNA测序，发现角质细胞可分为8个亚群，WIHN组织中毛囊间基底层角质细胞比例显著增加，并经免疫荧光验证；伪时间分析显示其标志基因Fst激活提前。成纤维细胞分为5个亚群，分泌性网状成纤维细胞比例上升。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308939",
+    "Submission_Date": "2026/09/23",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 20,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle"
+      ],
+      "summary": [
+        "hair_follicle",
+        "alopecia"
+      ],
+      "overall_design": [
+        "hair_follicle"
+      ],
+      "summary_sample": [
+        "hair_follicle"
+      ],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
+    "Accession": "GSE326083",
+    "Title": "IL-31 targets the hair follicle bulge across species and restrains hair regeneration in mice",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 8,
+    "Platform": "24247",
+    "Country": "Japan",
+    "Lab": "",
+    "Institute": "Kyoto University",
+    "Contributors": "Katsuo Kosuke; Nakamizo Satoshi; Kabashima Kenji",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "IL-31 is a type 2 cytokine best known for actions on sensory neurons, whereas its targets within skin epithelium remain incompletely defined. Here, reanalysis of public single-cell RNA-sequencing datasets and RNAscope identified Il31ra expression predominantly in the bulge and secondary hair germ (sHG) of mouse hair follicles and in the bulge compartment of human hair follicles. In isolated mouse keratinocytes, recombinant IL-31 (rIL-31) induced a bulge-enriched JAK-STAT–associated transcriptional response. In vivo rIL-31 administration activated STAT3, STAT5, and ERK1/2 in mouse bulge/sHG cells, and these responses were lost in keratinocyte-specific Il31ra-deficient mice. In a hair plucking–induced anagen model, continuous rIL-31 administration delayed anagen progression in control mice but not in keratinocyte-specific Il31ra-deficient mice. Parallel analyses of human scalp skin demonstrated that IL31RA is similarly enriched in the bulge compartment. In human skin explants, rIL-31 induced pSTAT5 in KRT15+ bulge cells. Together, these data identify the hair follicle bulge as a conserved epithelial target of IL-31 and support a role for IL-31 signaling in restraining hair regeneration in mice.",
+    "Overall_Design": "Keratinocytes were isolated from dorsal skin of wild-type mice, enzymatically dissociated into a single-cell suspension, and sorted by fluorescence-activated cell sorting. Based on a previous report (Sakamoto et al., STAR Protoc, 2021), bulge cells were defined as the CD45-CD200+CD34+ fraction. These cells were cultured overnight and subsequently stimulated with recombinant IL-31 for 24 hours.",
+    "AI_Summary_CN": "本研究探究IL-31在皮肤上皮中的靶细胞及对毛囊再生的调控。通过公共单细胞RNA测序再分析、RNAscope及bulk RNA-seq，发现IL-31受体主要表达于小鼠毛囊隆突区和次级毛胚，以及人毛囊隆突区。IL-31激活隆突细胞JAK-STAT通路，并在体内延缓毛囊生长期进展，揭示其抑制毛囊再生的作用。",
+    "AI_Summary": "本研究探究IL-31在皮肤上皮中的靶细胞及对毛囊再生的调控。通过公共单细胞RNA测序再分析、RNAscope及bulk RNA-seq，发现IL-31受体主要表达于小鼠毛囊隆突区和次级毛胚，以及人毛囊隆突区。IL-31激活隆突细胞JAK-STAT通路，并在体内延缓毛囊生长期进展，揭示其抑制毛囊再生的作用。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326083",
+    "Submission_Date": "2026/09/23",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 27,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle",
+        "hair_growth"
+      ],
+      "summary": [
+        "hair_follicle",
+        "hair_compartment",
+        "hair_cycle_stage",
+        "hair_growth",
+        "scalp"
+      ],
+      "overall_design": [
+        "bulge_cells"
+      ],
+      "summary_sample": [
+        "hair_compartment",
+        "hair_cycle_stage",
+        "hair_follicle"
+      ],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
+    "Accession": "GSE333781",
+    "Title": "Gene expression profile at single cell level of telogen and early anagen mouse hair follicle",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 2,
+    "Platform": "24247",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Chongqing University",
+    "Contributors": "",
+    "PubMed_IDs": "42741478",
+    "Supplementary_Size": "N/A",
+    "Summary": "To investigate the transcriptional dynamics of mouse skin cells during the hair cycle transition from telogen to early anagen, we performed single-cell RNA sequencing (scRNA-seq) using skin tissues collected from mice at telogen and early anagen stages.",
+    "Overall_Design": "scRNA-seq was performed on mouse skin tissues collected at two distinct hair cycle stages: telogen and early anagen. The experiment aimed to characterize cellular heterogeneity and transcriptional dynamics across different stages of the hair cycle",
+    "AI_Summary_CN": "本研究旨在探究小鼠毛囊从休止期向生长期转变过程中的转录动态。采用单细胞RNA测序技术，对休止期和早期生长期小鼠皮肤组织进行测序分析。该数据集揭示了毛囊周期转换中关键细胞亚群的基因表达变化，为理解毛发再生调控机制提供了重要资源。",
+    "AI_Summary": "本研究旨在探究小鼠毛囊从休止期向生长期转变过程中的转录动态。采用单细胞RNA测序技术，对休止期和早期生长期小鼠皮肤组织进行测序分析。该数据集揭示了毛囊周期转换中关键细胞亚群的基因表达变化，为理解毛发再生调控机制提供了重要资源。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333781",
+    "Submission_Date": "2026/09/23",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 27,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle",
+        "hair_cycle_stage"
+      ],
+      "summary": [
+        "hair_cycle_stage",
+        "hair_cycle"
+      ],
+      "overall_design": [
+        "hair_cycle_stage",
+        "hair_cycle"
+      ],
+      "summary_sample": [
+        "hair_cycle",
+        "hair_cycle_stage"
+      ],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE315331",
     "Title": "Characterization of Sebaceous Gland Stem Cell Illuminates a Strategy for Maintaining Skin Oil Balance [CUT&Run]",
     "Organism": "Mus musculus",
