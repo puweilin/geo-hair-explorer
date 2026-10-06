@@ -1,5 +1,50 @@
 [
   {
+    "Accession": "GSE287304",
+    "Title": "Single cell transcriptome of three types of mesenchymal cells of hair follicle",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 4,
+    "Platform": "28038",
+    "Country": "Japan",
+    "Lab": "",
+    "Institute": "Shiseido",
+    "Contributors": "",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Hair follicles (HFs) are skin appendages that are repeatedly renewed by the hair cycle. Alopecia develops as a result of a variety of factors, including disturbances of the hair cycle and immune response abnormalities, and although treatments have been developed, they still cannot be described as adequate. Regenerative medicine for hair loss by autologous cell-based therapy has been tried as one of the methods of treatment for male and female pattern hair loss. The dermal mesenchyme-derived component consists of the dermal papilla (DP), located at the center of the hair bulb, and the dermal sheath (DS), which is the outermost layer of the HF, and the peribulbar DS ‘‘cup’’ (DSC) lateral to the DP. DSC cells are thought to play a pivotal role as progenitors of DP cells. Recently, the useful potential of DSC cells for male and female pattern hair loss have been reported. DSC cells grafted in mouse ear skin elicited relatively ‘‘more potent HF induction’’ compared with DP cells, and non-bulbar upper DS (UDS) cells have no induction the HF. We compared the gene expression profiles of these three different mesenchymal subunits of the intact human HF, the DSC, DP and UDS, and reported the marker genes. However, the nature of the primary cultured and, in addition, subcultured cells used in actual cell-based therapy has remained unclear. In this study, we elucidated the gene expression profiles of the cultured DSC, DP, and UDS cells by single-cell transcriptome analysis.",
+    "Overall_Design": "mRNA profiles of dermal sheath cup cells, dermal papilla cells and upper dermal sheath cells",
+    "AI_Summary_CN": "本研究旨在解析毛囊真皮乳头（DP）、真皮鞘（DS）及毛球周真皮鞘杯（DSC）三类间充质细胞的转录异质性，以阐明DSC作为DP祖细胞的作用。采用bulk RNA-seq技术对上述细胞进行转录组测序。研究为脱发细胞治疗提供了分子基础，有助于优化基于自体细胞的再生医学策略。",
+    "AI_Summary": "本研究旨在解析毛囊真皮乳头（DP）、真皮鞘（DS）及毛球周真皮鞘杯（DSC）三类间充质细胞的转录异质性，以阐明DSC作为DP祖细胞的作用。采用bulk RNA-seq技术对上述细胞进行转录组测序。研究为脱发细胞治疗提供了分子基础，有助于优化基于自体细胞的再生医学策略。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE287304",
+    "Submission_Date": "2026/10/04",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 20,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle"
+      ],
+      "summary": [
+        "hair_follicle",
+        "dermal_papilla",
+        "dermal_sheath",
+        "hair_compartment",
+        "hair_cycle",
+        "hair_loss",
+        "alopecia"
+      ],
+      "overall_design": [
+        "dermal_papilla",
+        "dermal_sheath"
+      ],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE308939",
     "Title": "Single-cell RNA-seq reveals the keratinocyte heterogeneity and increased interfollicular basal keratinocytes in wound-induced hair follicle neogenesis",
     "Organism": "Mus musculus",
