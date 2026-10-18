@@ -1,5 +1,42 @@
 [
   {
+    "Accession": "GSE318430",
+    "Title": "Loss of Kdm1a in upper hair follicles leads to hyperproliferation and skin inflammation",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 8,
+    "Platform": "34290",
+    "Country": "USA",
+    "Lab": "George Sen",
+    "Institute": "University of California, San Diego",
+    "Contributors": "Liu Ye; Sen George",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Deletion of Kdm1a in the upper hair follicle region using Lrig1-Cre-ER strain increased epidermal thickness and upregulated prolifative gene expression during the first telogen phase. At the late time point, Kdm1a knockout mice showed pronounced skin inflammation related to elevated inflammatory gene expression.",
+    "Overall_Design": "tdTomat-expressing Lrig1+ skin cells from control and Kdm1a knockout mice at the late time point were sorted.",
+    "AI_Summary_CN": "本研究旨在探究上毛囊区Kdm1a缺失对皮肤稳态的影响。利用Lrig1-Cre-ER小鼠模型敲除Kdm1a，采用bulk RNA-seq分析基因表达。结果显示，首个休止期表皮增厚、增殖基因上调；后期出现明显皮肤炎症并伴炎症基因表达升高。表明Kdm1a缺失导致表皮过度增殖及炎症反应。",
+    "AI_Summary": "本研究旨在探究上毛囊区Kdm1a缺失对皮肤稳态的影响。利用Lrig1-Cre-ER小鼠模型敲除Kdm1a，采用bulk RNA-seq分析基因表达。结果显示，首个休止期表皮增厚、增殖基因上调；后期出现明显皮肤炎症并伴炎症基因表达升高。表明Kdm1a缺失导致表皮过度增殖及炎症反应。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318430",
+    "Submission_Date": "2026/10/16",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 8,
+    "Relevance_Reason": "标题以毛囊、毛发生物学或脱发为主要研究主题",
+    "Relevance_Evidence": {
+      "title": [
+        "hair_follicle"
+      ],
+      "summary": [
+        "hair_follicle",
+        "hair_cycle_stage"
+      ],
+      "overall_design": [],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE287304",
     "Title": "Single cell transcriptome of three types of mesenchymal cells of hair follicle",
     "Organism": "Homo sapiens",
