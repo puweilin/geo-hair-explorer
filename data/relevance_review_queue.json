@@ -1,5 +1,44 @@
 [
   {
+    "Accession": "GSE314679",
+    "Title": "Immune cells adapt to distinct stem cell niches to govern tissue homeostasis [scRNA-seq]",
+    "Summary": "In adult tissues, epithelial stem cells exist within distinct residences, each endowing them with exclusive instructions for regenerative fitness in homeostasis and wound repair. Key components of these ‘niches’ are immune cells, which protect the host against external and internal threats. Whether and how stem cell: immune cell crosstalk contributes to normal tissue homeostasis remains less clear. Here, we discover functional adaptation of lymphocytes within two distinct skin stem cell niches and show that through this communication, each niche adjusts to meet diverse tissue demands. In the upper hair follicle, where microbial load is high, T cells express lymphotoxin-β and stimulate adjacent receptor-positive epithelial stem cells to form an immune-competent niche tailored to control microbial expansion. By contrast, in the epidermis, these T cells produce amphiregulin to maintain stem cell stoking of the skin’s barrier. Concomitantly, they express the immune checkpoint protein ‘LAG3’, which autorestricts lymphocyte numbers, and hence amphiregulin levels, thereby preventing over-proliferative responses. Finally, when epidermal T cells are absent, distinct dermal lymphocytes restore the imbalance by colonizing the niche and activating amphiregulin. Our findings unveil new modes of homeostatic control and functional specialization of immune-stem cell niches, tailoring them to suit the demands of distinct tissue microenvironments.",
+    "Overall_Design": "Single cell suspension from uLIPSTIC mouse back skin was stained with fluorescent antibodies and HTO-streptavidin for detection of uLIPSTIC signal (PE TotalSeq-C0961 barcoded antibody, BioLegend). Epithelial, myeloid, and lymphocyte fractions were pooled, assessed for viability, then submitted for library preparation with the 10X Single-cell Chromium system (5' 10x scRNAseq + TotalSeq C feature barcode + VDJ library prep) according to manufacturer instructions.",
+    "Submission_Date": "2026/10/30",
+    "Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Rule_Assessment": {
+      "decision": "review",
+      "score": 3,
+      "stage1_pass": true,
+      "reason": "存在毛发相关描述，但缺少足够的研究对象或样本证据",
+      "title_terms": [],
+      "summary_terms": [
+        "hair_follicle"
+      ],
+      "design_terms": [],
+      "summary_sample_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "relevant_summary_sentences": 1
+    },
+    "Decision_Source": "two_stage_rule",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314679"
+  },
+  {
     "Accession": "GSE309302",
     "Title": "Importance of Golgi homeostasis in hair quality: Grasp55 is crucial for cuticle formation",
     "Summary": "The Golgi apparatus is a central hub for protein processing, trafficking, and secretion, and its integrity is essential for epidermal barrier function and hair follicle homeostasis. While Golgi dysfunction has been linked to skin and hair abnormalities, its direct contribution to hair shaft formation remains unclear. Here, we investigated the role of Golgi reassembly stacking protein 55 (GRASP55), a structural factor critical for cisternal stacking and membrane tethering, in hair biology. We generated Grasp55 knockout (KO) mice and analyzed the ultrastructure and mechanical properties of their hair shafts.",

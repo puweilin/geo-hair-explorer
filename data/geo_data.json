@@ -1,5 +1,80 @@
 [
   {
+    "Accession": "GSE314678",
+    "Title": "Immune cells adapt to distinct stem cell niches to govern tissue homeostasis [bulkRNA-seq]",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 4,
+    "Platform": "24247",
+    "Country": "USA",
+    "Lab": "Elaine Fuchs",
+    "Institute": "Rockefeller University",
+    "Contributors": "Parigi Sara; Fuchs Elaine",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "In adult tissues, epithelial stem cells exist within distinct residences, each endowing them with exclusive instructions for regenerative fitness in homeostasis and wound repair. Key components of these ‘niches’ are immune cells, which protect the host against external and internal threats. Whether and how stem cell: immune cell crosstalk contributes to normal tissue homeostasis remains less clear. Here, we discover functional adaptation of lymphocytes within two distinct skin stem cell niches and show that through this communication, each niche adjusts to meet diverse tissue demands. In the upper hair follicle, where microbial load is high, T cells express lymphotoxin-β and stimulate adjacent receptor-positive epithelial stem cells to form an immune-competent niche tailored to control microbial expansion. By contrast, in the epidermis, these T cells produce amphiregulin to maintain stem cell stoking of the skin’s barrier. Concomitantly, they express the immune checkpoint protein ‘LAG3’, which autorestricts lymphocyte numbers, and hence amphiregulin levels, thereby preventing over-proliferative responses. Finally, when epidermal T cells are absent, distinct dermal lymphocytes restore the imbalance by colonizing the niche and activating amphiregulin. Our findings unveil new modes of homeostatic control and functional specialization of immune-stem cell niches, tailoring them to suit the demands of distinct tissue microenvironments.",
+    "Overall_Design": "RNA-seq of mouse upper hair follicle stem cells treated intradermally with a monoclonal antibody agonist to LTBR (clone 3C8, Adipogen) or anti-mouse IgG1 isotype control, every other day three treatments (days 0, 2, 4) then harvested on day 6.",
+    "AI_Summary_CN": "本研究探讨免疫细胞如何适应不同干细胞微环境以调控组织稳态。利用bulk RNA-seq技术，发现淋巴细胞在两种皮肤干细胞微环境中发生功能适应，通过淋巴毒素-β信号刺激上皮干细胞，形成免疫竞争性微环境以应对微生物负荷，揭示干细胞与免疫细胞互作对组织稳态的调控机制。",
+    "AI_Summary": "本研究探讨免疫细胞如何适应不同干细胞微环境以调控组织稳态。利用bulk RNA-seq技术，发现淋巴细胞在两种皮肤干细胞微环境中发生功能适应，通过淋巴毒素-β信号刺激上皮干细胞，形成免疫竞争性微环境以应对微生物负荷，揭示干细胞与免疫细胞互作对组织稳态的调控机制。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314678",
+    "Submission_Date": "2026/10/30",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 12,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [],
+      "summary": [
+        "hair_follicle"
+      ],
+      "overall_design": [
+        "hair_follicle",
+        "hair_follicle_stem_cell"
+      ],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
+    "Accession": "GSE352146",
+    "Title": "Effects of orexin-A on human dermal papilla cells",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "24676",
+    "Country": "Japan",
+    "Lab": "",
+    "Institute": "Kyushu University",
+    "Contributors": "Kageyama Tatsuto; Urakawa Kohei",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "We examined effects of orexin-A on human dermal papilla cells.",
+    "Overall_Design": "We annalysed gene expression of human dermal papilla cells with/without orexin-A  treatment.",
+    "AI_Summary_CN": "本研究旨在探究食欲素-A（orexin-A）对人真皮乳头细胞（hDPCs）的生物学效应及其潜在调控机制。采用bulk RNA-seq技术对处理后的细胞进行转录组测序分析。该数据集为揭示orexin-A在毛囊生长调控及脱发相关研究中的作用提供了转录组学依据与数据资源。",
+    "AI_Summary": "本研究旨在探究食欲素-A（orexin-A）对人真皮乳头细胞（hDPCs）的生物学效应及其潜在调控机制。采用bulk RNA-seq技术对处理后的细胞进行转录组测序分析。该数据集为揭示orexin-A在毛囊生长调控及脱发相关研究中的作用提供了转录组学依据与数据资源。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352146",
+    "Submission_Date": "2026/10/30",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 13,
+    "Relevance_Reason": "实验设计明确包含毛囊、头皮、毛周期或相关细胞/样本",
+    "Relevance_Evidence": {
+      "title": [
+        "dermal_papilla"
+      ],
+      "summary": [
+        "dermal_papilla"
+      ],
+      "overall_design": [
+        "dermal_papilla"
+      ],
+      "summary_sample": [],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE318430",
     "Title": "Loss of Kdm1a in upper hair follicles leads to hyperproliferation and skin inflammation",
     "Organism": "Mus musculus",
